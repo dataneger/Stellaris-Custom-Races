@@ -1927,12 +1927,24 @@
  
 			}
 		}
-		species_bio="Mark: \"Wat is dit nou voor een bende. Doe is even normaal zeg.\" Mark staat al daar in een leer harnas, met politie pet op. \"Nou jongens, nu is het toch echt wel even gelopen\" zegt Mark in een belerende toon. \"Ik heb hier helemaal geen zin in!\" Zegt Geertje al pruillippend. \"Tu quoquo, Mark!\" Antwoord Thierry in een zeikerige toon. \"Je zal me aanspreken met Premier.\" Antwoord Mark in een strenge toon.
-
-
-
-
-
+		species_bio="Mark: \"Wat is dit nou voor een bende. Doe is even normaal zeg.\" Mark staat al daar in een leer harnas, met politie pet op. \"Nou jongens, nu is het toch echt wel even gelopen\" zegt Mark in een belerende toon. \"Ik heb hier helemaal geen zin in!\" Zegt Geertje al pruillippend. \"Tu quoquo, Mark!\" Antwoord Thierry in een zeikerige toon. \"Je zal me aanspreken met Premier.\" Antwoord Mark in een strenge toon.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Geert draait zich om en doet z'n armen over elkaar. \"Stel je niet zo aan geert\" zegt Thierry in een verveelde toon. \"Error in corpore, ik ben geen uitkeringstrekker, ik werk gewoon voor mijn goed zoals een trotse Nederlander!\" "
 		name_list="HUMAN1"
 		gender=male
@@ -1957,12 +1969,24 @@ Geert draait zich om en doet z'n armen over elkaar. \"Stel je niet zo aan geert\
 			key="Thierry en de space fascisten"
 			literal=yes
 		}
-		species_bio="Mark: \"Wat is dit nou voor een bende. Doe is even normaal zeg.\" Mark staat al daar in een leer harnas, met politie pet op. \"Nou jongens, nu is het toch echt wel even gelopen\" zegt Mark in een belerende toon. \"Ik heb hier helemaal geen zin in!\" Zegt Geertje al pruillippend. \"Tu quoquo, Mark!\" Antwoord Thierry in een zeikerige toon. \"Je zal me aanspreken met Premier.\" Antwoord Mark in een strenge toon.
-
-
-
-
-
+		species_bio="Mark: \"Wat is dit nou voor een bende. Doe is even normaal zeg.\" Mark staat al daar in een leer harnas, met politie pet op. \"Nou jongens, nu is het toch echt wel even gelopen\" zegt Mark in een belerende toon. \"Ik heb hier helemaal geen zin in!\" Zegt Geertje al pruillippend. \"Tu quoquo, Mark!\" Antwoord Thierry in een zeikerige toon. \"Je zal me aanspreken met Premier.\" Antwoord Mark in een strenge toon.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Geert draait zich om en doet z'n armen over elkaar. \"Stel je niet zo aan geert\" zegt Thierry in een verveelde toon. \"Error in corpore, ik ben geen uitkeringstrekker, ik werk gewoon voor mijn goed zoals een trotse Nederlander!\" "
 		name_list="HUMAN1"
 		gender=male
@@ -2316,4 +2340,103 @@ Geert draait zich om en doet z'n armen over elkaar. \"Stel je niet zo aan geert\
 		"civic_hive_devouring_swarm"
 	}
 	origin="origin_subterranean"
+}
+"United Federation of Trump"={
+	key="United Federation of Trump"
+	ship_prefix={
+		key="ISS"
+	}
+	species={
+		class="REP"
+		portrait="rep11"
+		species_name={
+			key="United Federation of Trump"
+			literal=yes
+		}
+		species_plural={
+			key="United Federation of Trump"
+			literal=yes
+		}
+		species_adjective={
+			key="United Federation of Trump"
+			literal=yes
+		}
+		species_bio="United Federation of Trump"
+		name_list="HUMAN1"
+		gender=indeterminable
+		trait="trait_survivor"
+		trait="trait_industrious"
+		trait="trait_rapid_breeders"
+		trait="trait_traditional"
+		trait="trait_nonadaptive"
+		trait="trait_slow_learners"
+	}
+	name={
+		key="United Federation of Trump"
+		literal=yes
+	}
+	adjective={
+		key="United Federation of Trump"
+		literal=yes
+	}
+	authority="auth_oligarchic"
+	government="gov_theocratic_oligarchy"
+	planet_name={
+		key="Mar-O-Lago"
+		literal=yes
+	}
+	planet_class="pc_desert"
+	system_name={
+		key="Mar-O-Lago"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="reptilian_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag={
+		icon={
+			category="corporate"
+			file="corporate_01.dds"
+		}
+		background={
+			category="backgrounds"
+			file="horizontal_stripe.dds"
+		}
+		colors={
+			"intense_blue"
+			"white"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=indeterminable
+		name={
+			first_name={
+				key="Trump"
+				literal=yes
+			}
+		}
+		portrait="rep11"
+		texture=0
+		hair=0
+		clothes=1
+		ruler_title={
+			key="Cunt"
+			literal=yes
+		}
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_harmonious_hierarchy_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_cutthroat_politics"
+		"civic_police_state"
+	}
+	origin="origin_post_apocalyptic"
 }
