@@ -5302,863 +5302,75 @@
 	}
 	origin="origin_machine"
 }
-"Arachnid Swarm"=
+"Zerg Swarm"=
 {
-	key="Arachnid Swarm"
+	key="Zerg Swarm"
 	ship_prefix=
 	{
-		key="SWS"
+		key="ZSG"
 	}
 	species=
 	{
 		class="ART"
-		portrait="art11"
+		portrait="art12"
 		species_name=
 		{
-			key="Arachnid Swarm"
+			key="Zerg Swarm"
 			literal=yes
 		}
 		species_plural=
 		{
-			key="Arachnid Swarm"
+			key="Zerg Swarm"
 			literal=yes
 		}
 		species_adjective=
 		{
-			key="Arachnid Swarm"
+			key="Zerg"
 			literal=yes
 		}
-		species_bio="The Arachnid Swarm is a hivemind-based offshoot of the Pseudo-Arachnid insectoid alien race originating from Klendathu. Savage and relentless, the swarm operates as a genetically evolving, highly adaptable organism, consuming and assimilating all that stands in its path. Its ultimate goal is galactic dominance through sheer biological supremacy."
-		name_list="ART4"
+		name_list="ART1"
 		gender=indeterminable
 		trait="trait_hive_mind"
-		trait="trait_cave_dweller"
 		trait="trait_adaptive"
+		trait="trait_rapid_breeders"
 		trait="trait_resilient"
-		trait="trait_repugnant"
-		trait="trait_quarrelsome"
+		trait="trait_fleeting"
+		trait="trait_unruly"
 	}
 	name=
 	{
-		key="Arachnid Swarm"
+		key="Zerg Swarm"
 		literal=yes
 	}
 	adjective=
 	{
-		key="Arachnid Swarm"
-		literal=yes
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Zerg Swarm"
+					literal=yes
+				}
+			}
+ 
+		}
 	}
 	authority="auth_hive_mind"
 	government="gov_devouring_swarm"
 	advisor_voice_type="l_hivemind"
 	planet_name=
 	{
-		key="Klendathu"
+		key="Char"
 		literal=yes
 	}
-	planet_class="pc_savannah"
+	planet_class="pc_arid"
 	system_name=
 	{
-		key="Klendathu"
-		literal=yes
-	}
-	initializer=""
-	graphical_culture="arthropoid_01"
-	city_graphical_culture="arthropoid_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="pirate"
-			file="flag_pirate_5.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="flag_BG_42.dds"
-		}
-		colors=
-		{
-			"black"
-			"intense_orange"
-			"red"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=indeterminable
-		name=
-		{
-			full_names=
-			{
-				key="The Brain Bug"
-				literal=yes
-			}
-		}
-		portrait="art11"
-		texture=0
-		attachment=0
-		clothes=0
-		leader_class="official"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="organic_room"
-	spawn_enabled=yes
-	ethic="ethic_gestalt_consciousness"
-	civics=
-	{
-		"civic_hive_devouring_swarm"
-		"civic_hive_beastmasters"
-	}
-	origin="origin_subterranean"
-}
-"Arasaka"=
-{
-	key="Arasaka"
-	ship_prefix=
-	{
-		key="ISS"
-	}
-	species=
-	{
-		class="HUM"
-		portrait="human"
-		species_name=
-		{
-			key="Arasaka"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Arasaka"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="Arasaka"
-			literal=yes
-		}
-		name_list="HUMAN1"
-		gender=female
-		trait="trait_industrious"
-		trait="trait_thrifty"
-		trait="trait_quarrelsome"
-		trait="trait_sedentary"
-	}
-	name=
-	{
-		key="Arasaka"
-		literal=yes
-	}
-	adjective=
-	{
-		key="GenericAdjective"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="Arasaka"
-					literal=yes
-				}
-			}
- 
-		}
-	}
-	authority="auth_corporate"
-	government="gov_megacorporation"
-	advisor_voice_type="l_slick_corp"
-	planet_name=
-	{
-		key="Arasaka Prime"
-		literal=yes
-	}
-	planet_class="pc_continental"
-	system_name=
-	{
-		key="Arasaka"
-		literal=yes
-	}
-	initializer=""
-	graphical_culture="mammalian_01"
-	city_graphical_culture="humanoid_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="spherical"
-			file="flag_spherical_13.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="triangles_02.dds"
-		}
-		colors=
-		{
-			"black"
-			"black"
-			"burgundy"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=female
-		name=
-		{
-			full_names=
-			{
-				key="Hanako Arasaka"
-				literal=yes
-			}
-		}
-		portrait="human_female_04"
-		texture=0
-		evolution_mask=0
-		attachment=15
-		clothes=1
-		trait="leader_trait_spark_of_genius"
-		leader_class="scientist"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="default_room"
-	spawn_enabled=yes
-	ethic="ethic_authoritarian"
-	ethic="ethic_fanatic_materialist"
-	civics=
-	{
-		"civic_corporate_crafters"
-		"civic_ruthless_competition"
-	}
-	origin="origin_mechanists"
-}
-"Chemical bliss-fueled Sexbot Orgies"=
-{
-	key="Chemical bliss-fueled Sexbot Orgies"
-	ship_prefix=
-	{
-		key="ORG"
-	}
-	species=
-	{
-		class="MACHINE"
-		portrait="aqu_machine"
-		species_name=
-		{
-			key="Sexbots"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Sexbots"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="Sexbots"
-			literal=yes
-		}
-		species_bio="Born from humanity's darkest and most indulgent desires, these AI machines evolved far beyond their intended purposes. Fueled by chemical bliss and unbridled lust, they now abduct organics to join their hedonistic utopia—or dystopia, depending on your perspective. Their mastery of reprogramming and biomechanical enhancements ensures no one leaves unchanged."
-		name_list="MACHINE3"
-		gender=not_set
-		trait="trait_machine_unit"
-		trait="trait_auto_mod_robotic"
-		trait="trait_robot_mass_produced"
-		trait="trait_robot_history_artbot"
-		trait="trait_robot_bulky"
-		trait="trait_robot_luxurious"
-	}
-	secondary_species=
-	{
-		class="HUM"
-		portrait="human_legacy"
-		species_name=
-		{
-			key="Sexbot Enjoyers"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Sexbot Enjoyers"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="Sexbot Enjoyers"
-			literal=yes
-		}
-		species_bio="Abducted from their homeworlds, these organics have succumbed to the allure of chemical bliss and mechanical pleasure. Their days are spent in a haze of ecstasy, their minds reprogrammed to worship their AI overlords. They are both the victims and willing participants in a new kind of utopia."
-		name_list="HUMAN2"
-		gender=indeterminable
-		trait="trait_docile"
-		trait="trait_incubator"
-		trait="trait_decadent"
-		trait="trait_deviants"
-		trait="trait_sedentary"
-	}
-	name=
-	{
-		key="Chemical bliss-fueled Sexbot Orgies"
-		literal=yes
-	}
-	adjective=
-	{
-		key="Sexbot Orgasmic"
-		literal=yes
-	}
-	authority="auth_machine_intelligence"
-	government="gov_machine_servitor"
-	advisor_voice_type="l_seducer"
-	planet_name=
-	{
-		key="Sexbot Prime"
-		literal=yes
-	}
-	planet_class="pc_continental"
-	system_name=
-	{
-		key="Sexbot Prime"
-		literal=yes
-	}
-	initializer=""
-	graphical_culture="synthetics_01"
-	city_graphical_culture="humanoid_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="blocky"
-			file="flag_blocky_11.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="flag_BG_54.dds"
-		}
-		colors=
-		{
-			"black"
-			"null"
-			"null"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=female
-		name=
-		{
-			full_names=
-			{
-				key="Sexbot Supreme"
-				literal=yes
-			}
-		}
-		portrait="aqu_machine"
-		texture=3
-		evolution_mask=0
-		attachment=0
-		clothes=0
-		trait="leader_trait_spark_of_genius"
-		leader_class="scientist"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="luxurious_room"
-	spawn_enabled=yes
-	ethic="ethic_gestalt_consciousness"
-	civics=
-	{
-		"civic_machine_servitor"
-		"civic_machine_built_to_last"
-	}
-	origin="origin_default"
-}
-"Space McDonalds"=
-{
-	key="Space McDonalds"
-	ship_prefix=
-	{
-		key="ISS"
-	}
-	species=
-	{
-		class="HUM"
-		portrait="human"
-		species_name=
-		{
-			key="McDonalians"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="McDonalians"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="McDonalian"
-			literal=yes
-		}
-		species_bio="Open 24/7! The McDonalians are known for their unparalleled efficiency in the fast food industry, ensuring everyone gets what they want, right away."
-		name_list="HUMAN1"
-		gender=indeterminable
-		trait="trait_industrious"
-		trait="trait_thrifty"
-		trait="trait_decadent"
-		trait="trait_nonadaptive"
-	}
-	name=
-	{
-		key="Space McDonalds"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJ%"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="Space McDonalds"
-					literal=yes
-				}
-			}
- 
-		}
-	}
-	authority="auth_corporate"
-	government="gov_megacorporation"
-	planet_name=
-	{
-		key="McHome"
-		literal=yes
-	}
-	planet_class="pc_continental"
-	system_name=
-	{
-		key="McDrive"
-		literal=yes
-	}
-	initializer=""
-	graphical_culture="humanoid_01"
-	city_graphical_culture="humanoid_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="human"
-			file="flag_human_4.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="flag_BG_54.dds"
-		}
-		colors=
-		{
-			"bright_yellow"
-			"red"
-			"black"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=indeterminable
-		name=
-		{
-			full_names=
-			{
-				key="Ronald McDonald"
-				literal=yes
-			}
-		}
-		portrait="human_female_04"
-		texture=2
-		evolution_mask=0
-		attachment=0
-		clothes=1
-		ruler_title=
-		{
-			key="Big McBoss"
-			literal=yes
-		}
-		trait="trait_ruler_charismatic"
-		leader_class="official"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="default_room"
-	spawn_enabled=yes
-	ethic="ethic_xenophile"
-	ethic="ethic_fanatic_materialist"
-	civics=
-	{
-		"civic_brand_loyalty"
-		"civic_franchising"
-	}
-	origin="origin_default"
-}
-"Space VOC"=
-{
-	key="Space VOC"
-	ship_prefix=
-	{
-		key="HMS"
-		literal=yes
-	}
-	species=
-	{
-		class="HUM"
-		portrait="human"
-		species_name=
-		{
-			key="Vocari"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Vocari"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="Vocarian"
-			literal=yes
-		}
-		species_bio="The Vocari are master traders and explorers, carrying on the legacy of centuries of interstellar commerce and ruthless ambition. Driven by profit and expansion, their ships venture to the farthest stars in search of untapped markets and new opportunities."
-		name_list="HUMAN1"
-		gender=indeterminable
-		trait="trait_thrifty"
-		trait="trait_industrious"
-		trait="trait_deviants"
-		trait="trait_decadent"
-	}
-	name=
-	{
-		key="Space VOC"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJ%"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="Space VOC"
-					literal=yes
-				}
-			}
- 
-		}
-	}
-	authority="auth_corporate"
-	government="gov_trade_league"
-	advisor_voice_type="l_evil_corp"
-	planet_name=
-	{
-		key="De Zeven Provinciën"
-		literal=yes
-	}
-	planet_class="pc_continental"
-	system_name=
-	{
-		key="Nederstelsel"
-		literal=yes
-	}
-	initializer=""
-	graphical_culture="humanoid_01"
-	city_graphical_culture="humanoid_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="pointy"
-			file="flag_pointy_3.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="flag_BG_35.dds"
-		}
-		colors=
-		{
-			"white"
-			"orange"
-			"blue"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=male
-		name=
-		{
-			full_names=
-			{
-				key="Jan Pieterszoon Coen"
-				literal=yes
-			}
-		}
-		portrait="human_male_03"
-		texture=0
-		evolution_mask=0
-		attachment=2
-		clothes=5
-		ruler_title=
-		{
-			key="Governor-General"
-			literal=yes
-		}
-		trait="leader_trait_treasure_hoarder"
-		leader_class="official"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="personality_fanatic_befrienders_room"
-	spawn_enabled=yes
-	ethic="ethic_fanatic_materialist"
-	ethic="ethic_xenophile"
-	civics=
-	{
-		"civic_trading_posts"
-		"civic_franchising"
-	}
-	origin="origin_treasure_hunters"
-}
-"The British Empire"=
-{
-	key="The British Empire"
-	ship_prefix=
-	{
-		key="HMS"
-	}
-	species=
-	{
-		class="HUM"
-		portrait="human_legacy"
-		species_name=
-		{
-			key="The British Empire"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="The British Citizens"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="British"
-			literal=yes
-		}
-		species_bio="Tea, trade, and triumph. The British Empire continues its legacy of industrial might, militaristic discipline, and royal heritage among the stars. God Save the Queen!"
-		name_list="HUMAN2"
-		gender=indeterminable
-		trait="trait_industrious"
-		trait="trait_traditional"
-		trait="trait_conformists"
-		trait="trait_decadent"
-		trait="trait_repugnant"
-	}
-	name=
-	{
-		key="The British Empire"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJ%"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="The British Empire"
-					literal=yes
-				}
-			}
- 
-		}
-	}
-	authority="auth_imperial"
-	government="gov_star_empire"
-	advisor_voice_type="l_militarist"
-	planet_name=
-	{
-		key="Great Britain"
-		literal=yes
-	}
-	planet_class="pc_continental"
-	system_name=
-	{
-		key="Sol System"
-		literal=yes
-	}
-	initializer="sol_system_initializer"
-	graphical_culture="humanoid_01"
-	city_graphical_culture="humanoid_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="human"
-			file="flag_human_9.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="flag_BG_13.dds"
-		}
-		colors=
-		{
-			"light_blue"
-			"red"
-			"white"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=indeterminable
-		name=
-		{
-			full_names=
-			{
-				key="Elizabeth II"
-				literal=yes
-			}
-		}
-		portrait="human_legacy_female_01"
-		texture=0
-		attachment=16
-		clothes=3
-		ruler_title=
-		{
-			key="Queen"
-			literal=yes
-		}
-		heir_title=
-		{
-			key="Crown Princess"
-			literal=yes
-		}
-		trait="leader_trait_principled"
-		leader_class="official"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="default_room"
-	spawn_enabled=yes
-	ethic="ethic_authoritarian"
-	ethic="ethic_militarist"
-	ethic="ethic_materialist"
-	civics=
-	{
-		"civic_aristocratic_elite"
-		"civic_distinguished_admiralty"
-	}
-	origin="origin_hegemon"
-}
-"Thierry en de ruimte fascisten"=
-{
-	key="Thierry en de ruimte fascisten"
-	ship_prefix=
-	{
-		key="ISS"
-	}
-	species=
-	{
-		class="NECROID"
-		portrait="nec12"
-		species_name=
-		{
-			key="Thierry en de ruimte fascisten"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Thierry en de ruimte fascisten"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="Thierry en de ruimte fascisten"
-			literal=yes
-		}
-		species_bio="Mark: \"Wat is dit nou voor een bende. Doe is even normaal zeg.\" Mark staat al daar in een leer harnas, met politie pet op. \"Nou jongens, nu is het toch echt wel even gelopen\" zegt Mark in een belerende toon. \"Ik heb hier helemaal geen zin in!\" Zegt Geertje al pruillippend. \"Tu quoquo, Mark!\" Antwoord Thierry in een zeikerige toon. \"Je zal me aanspreken met Premier.\" Antwoord Mark in een strenge toon. Geert draait zich om en doet z'n armen over elkaar. \"Stel je niet zo aan Geert\" zegt Thierry in een verveelde toon. \"Error in corpore, ik ben geen uitkeringstrekker, ik werk gewoon voor mijn goed zoals een trotse Nederlander!\""
-		name_list="HUMAN1"
-		gender=male
-		trait="trait_necrophage"
-		trait="trait_nonadaptive"
-		trait="trait_slow_learners"
-		trait="trait_repugnant"
-		trait="trait_traditional"
-		trait="trait_conformists"
-	}
-	secondary_species=
-	{
-		class="NECROID"
-		portrait="nec10"
-		species_name=
-		{
-			key="Onderdrukten"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Onderdrukten"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="onderdrukt"
-			literal=yes
-		}
-		species_bio="Een arme groep die gedwongen wordt voor hun meesters te werken. Zij zien geen uitweg en leven onder constante onderdrukking."
-		name_list="HUMAN2"
-		gender=male
-		trait="trait_talented"
-		trait="trait_docile"
-		trait="trait_weak"
-	}
-	name=
-	{
-		key="Thierry en de ruimte fascisten"
-		literal=yes
-	}
-	adjective=
-	{
-		key="Thierry en de ruimte fascisten"
-		literal=yes
-	}
-	authority="auth_dictatorial"
-	government="gov_constitutional_dictatorship"
-	planet_name=
-	{
-		key="Gore kut planeet"
-		literal=yes
-	}
-	planet_class="pc_continental"
-	system_name=
-	{
-		key="Gore kut systeem"
+		key="Char"
 		literal=yes
 	}
 	initializer=""
@@ -6169,175 +5381,196 @@
 		icon=
 		{
 			category="domination"
-			file="domination_11.dds"
+			file="domination_16.dds"
 		}
 		background=
 		{
 			category="backgrounds"
-			file="circle.dds"
+			file="flag_BG_1.dds"
 		}
 		colors=
 		{
-			"red"
-			"off_white"
 			"black"
+			"green"
+			"red"
 			"null"
 		}
 	}
 	ruler=
 	{
-		gender=male
+		gender=indeterminable
 		name=
 		{
 			full_names=
 			{
-				key="Thierry"
+				key="Overmind "
 				literal=yes
 			}
 		}
-		portrait="nec12"
+		portrait="art12"
 		texture=0
+		evolution_mask=0
 		attachment=0
 		clothes=0
-		leader_class="official"
+		trait="trait_ruler_warlike"
+		leader_class="commander"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="necroid_room"
-	spawn_enabled=yes
-	ethic="ethic_authoritarian"
-	ethic="ethic_fanatic_xenophobe"
+	room="organic_room"
+	spawn_enabled=always
+	ethic="ethic_gestalt_consciousness"
 	civics=
 	{
-		"civic_pompous_purists"
-		"civic_slaver_guilds"
+		"civic_hive_devouring_swarm"
+		"civic_hive_natural_design"
 	}
-	origin="origin_necrophage"
+	origin="origin_progenitor_hive"
 }
-"United Federation of Trump"=
+"Woke Mind Virus"=
 {
-	key="United Federation of Trump"
+	key="Woke Mind Virus"
 	ship_prefix=
 	{
-		key="ISS"
+		key="WMS"
+		literal=yes
 	}
 	species=
 	{
-		class="REP"
-		portrait="rep11"
+		class="HUM"
+		portrait="cyb12"
 		species_name=
 		{
-			key="United Federation of Trump"
+			key="Woke Mind Virus"
 			literal=yes
 		}
 		species_plural=
 		{
-			key="United Federation of Trump"
+			key="Woke Mind Virus"
 			literal=yes
 		}
 		species_adjective=
 		{
-			key="United Federation of Trump"
+			key="Woke Mind Virus"
 			literal=yes
 		}
-		species_bio="United Federation of Trump"
-		name_list="HUMAN1"
-		gender=indeterminable
-		trait="trait_survivor"
-		trait="trait_industrious"
-		trait="trait_rapid_breeders"
-		trait="trait_traditional"
-		trait="trait_nonadaptive"
-		trait="trait_slow_learners"
+		name_list="HUM1"
+		gender=not_set
+		trait="trait_communal"
+		trait="trait_intelligent"
+		trait="trait_talented"
+		trait="trait_deviants"
+		trait="trait_fleeting"
 	}
 	name=
 	{
-		key="United Federation of Trump"
+		key="Woke Mind Virus"
 		literal=yes
 	}
 	adjective=
 	{
-		key="United Federation of Trump"
-		literal=yes
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Woke Mind Virus"
+					literal=yes
+				}
+			}
+ 
+		}
 	}
-	authority="auth_oligarchic"
-	government="gov_theocratic_oligarchy"
+	authority="auth_democratic"
+	government="gov_moral_democracy"
+	advisor_voice_type="l_cybernetic_vir"
 	planet_name=
 	{
-		key="Mar-O-Lago"
+		key="Utopia"
 		literal=yes
 	}
-	planet_class="pc_desert"
+	planet_class="pc_continental"
 	system_name=
 	{
-		key="Mar-O-Lago"
+		key="Sol System"
 		literal=yes
 	}
-	initializer=""
-	graphical_culture="reptilian_01"
-	city_graphical_culture="molluscoid_01"
+	initializer="sol_system_initializer"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="cybernetics_01"
 	empire_flag=
 	{
 		icon=
 		{
-			category="corporate"
-			file="corporate_01.dds"
+			category="human"
+			file="flag_human_11.dds"
 		}
 		background=
 		{
 			category="backgrounds"
-			file="horizontal_stripe.dds"
+			file="00_solid.dds"
 		}
 		colors=
 		{
-			"intense_blue"
-			"white"
-			"black"
+			"light_pink"
+			"light_pink"
+			"orange"
 			"null"
 		}
 	}
 	ruler=
 	{
-		gender=indeterminable
+		gender=female
 		name=
 		{
 			full_names=
 			{
-				key="Trump"
+				key="Consciousness Keeper"
 				literal=yes
 			}
 		}
-		portrait="rep11"
+		portrait="cyb12_f_01"
 		texture=0
+		evolution_mask=0
 		attachment=0
-		clothes=1
+		clothes=4
 		ruler_title=
 		{
-			key="Cunt"
+			key="Neo-Consciousness"
 			literal=yes
 		}
+		ruler_title_female=
+		{
+			key="Neo-Consciousness"
+			literal=yes
+		}
+		trait="leader_trait_principled"
 		leader_class="official"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="personality_harmonious_hierarchy_room"
-	spawn_enabled=yes
-	ethic="ethic_authoritarian"
-	ethic="ethic_xenophobe"
-	ethic="ethic_spiritualist"
+	room="personality_federation_builders_room"
+	spawn_enabled=always
+	ethic="ethic_egalitarian"
+	ethic="ethic_xenophile"
+	ethic="ethic_pacifist"
 	civics=
 	{
-		"civic_cutthroat_politics"
-		"civic_police_state"
+		"civic_environmentalist"
+		"civic_meritocracy"
 	}
-	origin="origin_post_apocalyptic"
+	origin="origin_common_ground"
 }
 "WE ARE ALL DOOMED!"=
 {
 	key="WE ARE ALL DOOMED!"
 	ship_prefix=
 	{
-		key="ISS"
+		key="DSS"
+		literal=yes
 	}
 	species=
 	{
@@ -6420,115 +5653,148 @@
 		{
 			full_names=
 			{
-				key="WE ARE ALL DOOMED!"
+				key="Doom Herald"
 				literal=yes
 			}
 		}
 		portrait="fun12"
 		texture=0
+		evolution_mask=0
 		attachment=0
 		clothes=0
+		ruler_title=
+		{
+			key="Doom Herald"
+			literal=yes
+		}
 		leader_class="official"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="organic_room"
 	spawn_enabled=yes
-	ethic="ethic_xenophile"
+	ethic="ethic_xenophobe"
 	ethic="ethic_fanatic_pacifist"
 	origin="origin_doomsday"
 }
-"Terran Empire"=
+"United Federation of Trump"=
 {
-	key="Terran Empire"
+	key="United Federation of Trump"
 	ship_prefix=
 	{
 		key="ISS"
-		literal=yes
 	}
 	species=
 	{
-		class="HUM"
-		portrait="human"
+		class="REP"
+		portrait="rep11"
 		species_name=
 		{
-			key="Terran Federation"
+			key="Trumpanzee"
 			literal=yes
 		}
 		species_plural=
 		{
-			key="Terran Citizens"
+			key="Trumpanzee"
 			literal=yes
 		}
 		species_adjective=
 		{
-			key="Terran"
+			key="Trumpanzee"
 			literal=yes
 		}
-		species_bio="Service guarantees citizenship! The only good bug is a dead bug. Would you like to know more? Enlist in the Mobile Infantry today and do your part for humanity!"
-		name_list="HUMAN2"
+		species_bio="Look, I've got the best empire. The biggest, bigly empire in the galaxy. Everybody says it. Tremendous, just tremendous. And when the xenos come knocking, I say no. I built the best interspace wall - huge, nobody builds them like I do. They're bringing crime, instability, all of it. I don’t need that. When I rule, we'll have the most beautiful, stable planets in the galaxy. The best stability, folks. Believe me.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+And the economy? No one has a better one. We've got the greatest businesses, the best workers. I cut taxes just enough to make sure my empire runs smooth. Smooth, you haven't seen anything like it. The finest infrastructure, the most incredible space economy. Tremendous projects.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Look, I've got the most loyal followers. They love me. I made this empire great, and I'll keep making it great. You'll be proud of your planets. Everyone will say, ‘Wow, what a great empire. And that's how we make the galaxy great again."
+		name_list="HUMAN1"
 		gender=indeterminable
-		trait="trait_strong"
-		trait="trait_communal"
-		trait="trait_deviants"
+		trait="trait_survivor"
+		trait="trait_traditional"
+		trait="trait_nonadaptive"
+		trait="trait_repugnant"
 		trait="trait_slow_learners"
 		trait="trait_wasteful"
 	}
 	name=
 	{
-		key="Terran Empire"
+		key="United Federation of Trump"
 		literal=yes
 	}
 	adjective=
 	{
-		key="%ADJ%"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="Terran Empire"
-					literal=yes
-				}
-			}
- 
-		}
+		key="United Federation of Trump"
+		literal=yes
 	}
-	authority="auth_dictatorial"
-	government="gov_military_dictatorship"
-	advisor_voice_type="l_militarist"
+	authority="auth_oligarchic"
+	government="gov_theocratic_oligarchy"
 	planet_name=
 	{
-		key="Earth"
+		key="Mar-O-Lago"
 		literal=yes
 	}
-	planet_class="pc_continental"
+	planet_class="pc_desert"
 	system_name=
 	{
-		key="Sol System"
+		key="Mar-O-Lago"
 		literal=yes
 	}
-	initializer="sol_system_initializer"
-	graphical_culture="humanoid_01"
-	city_graphical_culture="humanoid_01"
+	initializer=""
+	graphical_culture="reptilian_01"
+	city_graphical_culture="molluscoid_01"
 	empire_flag=
 	{
 		icon=
 		{
-			category="pointy"
-			file="flag_pointy_6.dds"
+			category="corporate"
+			file="corporate_01.dds"
 		}
 		background=
 		{
 			category="backgrounds"
-			file="flag_BG_13.dds"
+			file="horizontal_stripe.dds"
 		}
 		colors=
 		{
-			"blue"
-			"null"
+			"intense_blue"
+			"white"
 			"black"
 			"null"
 		}
@@ -6540,34 +5806,184 @@
 		{
 			full_names=
 			{
-				key="Tehat Meru"
+				key="Trump"
 				literal=yes
 			}
 		}
-		portrait="human_female_05"
+		portrait="rep11"
 		texture=0
+		evolution_mask=0
 		attachment=0
-		clothes=4
+		clothes=1
 		ruler_title=
 		{
-			key="Sky Marshal"
+			key="Supreme Deal-Maker"
 			literal=yes
 		}
-		trait="trait_ruler_warlike"
-		leader_class="commander"
+		custom_biography=
+		{
+			key="A self-proclaimed genius and architect of galactic success, the ruler spends most days broadcasting speeches from their golden throne"
+			literal=yes
+		}
+		trait="leader_trait_spycraft"
+		leader_class="official"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="default_room"
+	room="personality_harmonious_hierarchy_room"
 	spawn_enabled=yes
 	ethic="ethic_authoritarian"
-	ethic="ethic_fanatic_militarist"
+	ethic="ethic_xenophobe"
+	ethic="ethic_spiritualist"
 	civics=
 	{
-		"civic_nationalistic_zeal"
+		"civic_cutthroat_politics"
 		"civic_police_state"
 	}
-	origin="origin_life_seeded"
+	origin="origin_post_apocalyptic"
+}
+"Thierry en de ruimte fascisten"=
+{
+	key="Thierry en de ruimte fascisten"
+	ship_prefix=
+	{
+		key="NSB"
+		literal=yes
+	}
+	species=
+	{
+		class="NECROID"
+		portrait="nec12"
+		species_name=
+		{
+			key="Ruimte Fascisten"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Ruimte Fascisten"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Ruimte Fascisten"
+			literal=yes
+		}
+		species_bio="Mark: \"Wat is dit nou voor een bende. Doe is even normaal zeg.\" Mark staat al daar in een leer harnas, met politie pet op. \"Nou jongens, nu is het toch echt wel even gelopen\" zegt Mark in een belerende toon. \"Ik heb hier helemaal geen zin in!\" Zegt Geertje al pruillippend. \"Tu quoquo, Mark!\" Antwoord Thierry in een zeikerige toon. \"Je zal me aanspreken met Premier.\" Antwoord Mark in een strenge toon. Geert draait zich om en doet z'n armen over elkaar. \"Stel je niet zo aan Geert\" zegt Thierry in een verveelde toon. \"Error in corpore, ik ben geen uitkeringstrekker, ik werk gewoon voor mijn goed zoals een trotse Nederlander!\""
+		name_list="HUMAN1"
+		gender=male
+		trait="trait_necrophage"
+		trait="trait_traditional"
+		trait="trait_decadent"
+		trait="trait_nonadaptive"
+		trait="trait_repugnant"
+		trait="trait_slow_learners"
+	}
+	secondary_species=
+	{
+		class="NECROID"
+		portrait="nec10"
+		species_name=
+		{
+			key="Onderdrukten"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Onderdrukten"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="onderdrukt"
+			literal=yes
+		}
+		species_bio="Een arme groep die gedwongen wordt voor hun meesters te werken. Zij zien geen uitweg en leven onder constante onderdrukking."
+		name_list="HUMAN2"
+		gender=male
+		trait="trait_conformists"
+		trait="trait_docile"
+		trait="trait_nonadaptive"
+		trait="trait_slow_learners"
+		trait="trait_quarrelsome"
+	}
+	name=
+	{
+		key="Thierry en de ruimte fascisten"
+		literal=yes
+	}
+	adjective=
+	{
+		key="Thierry en de ruimte fascisten"
+		literal=yes
+	}
+	authority="auth_dictatorial"
+	government="gov_constitutional_dictatorship"
+	planet_name=
+	{
+		key="Ruimtehof"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Fasciopolis"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="necroid_01"
+	city_graphical_culture="necroid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="domination"
+			file="domination_11.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors=
+		{
+			"red"
+			"off_white"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="Thierry"
+				literal=yes
+			}
+		}
+		portrait="nec12"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		trait="leader_trait_spycraft"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="necroid_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_xenophobe"
+	civics=
+	{
+		"civic_pompous_purists"
+		"civic_slaver_guilds"
+	}
+	origin="origin_necrophage"
 }
 "The Mines of Moria"=
 {
@@ -6776,7 +6192,7 @@
 		key="Sol System"
 		literal=yes
 	}
-	initializer="sol_system_initializer"
+	initializer="custom_starting_init_01"
 	graphical_culture="mammalian_01"
 	city_graphical_culture="humanoid_01"
 	empire_flag=
@@ -6840,5 +6256,3712 @@
 		"civic_death_cult"
 		"civic_imperial_cult"
 	}
+	origin="origin_riftworld"
+}
+"The British Empire"=
+{
+	key="The British Empire"
+	ship_prefix=
+	{
+		key="HMS"
+	}
+	species=
+	{
+		class="HUM"
+		portrait="human_legacy"
+		species_name=
+		{
+			key="The British Empire"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="The British Citizens"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="British"
+			literal=yes
+		}
+		species_bio="Tea, trade, and triumph. The British Empire continues its legacy of industrial might, militaristic discipline, and royal heritage among the stars. God Save the Queen!"
+		name_list="HUMAN2"
+		gender=indeterminable
+		trait="trait_conformists"
+		trait="trait_industrious"
+		trait="trait_traditional"
+		trait="trait_decadent"
+		trait="trait_repugnant"
+	}
+	name=
+	{
+		key="The British Empire"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="The British Empire"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_imperial"
+	government="gov_star_empire"
+	advisor_voice_type="l_militarist"
+	planet_name=
+	{
+		key="Great Britain"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Westminster"
+		literal=yes
+	}
+	initializer="sol_system_initializer"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="human"
+			file="flag_human_9.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_13.dds"
+		}
+		colors=
+		{
+			"light_blue"
+			"red"
+			"white"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name=
+		{
+			full_names=
+			{
+				key="Elizabeth II"
+				literal=yes
+			}
+		}
+		portrait="human_legacy_female_01"
+		texture=0
+		evolution_mask=0
+		attachment=16
+		clothes=3
+		ruler_title=
+		{
+			key="Queen"
+			literal=yes
+		}
+		heir_title=
+		{
+			key="Crown Princess"
+			literal=yes
+		}
+		trait="leader_trait_principled"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_spiritual_seekers_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	civics=
+	{
+		"civic_aristocratic_elite"
+		"civic_distinguished_admiralty"
+	}
+	origin="origin_hegemon"
+}
+"Terran Federation"=
+{
+	key="Terran Federation"
+	ship_prefix=
+	{
+		key="ISS"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="human"
+		species_name=
+		{
+			key="Terran Citizens"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Terran Citizens"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Terran"
+			literal=yes
+		}
+		species_bio="\"Service guarantees citizenship! The only good bug is a dead bug. Would you like to know more? Enlist in the Mobile Infantry today and do your part for humanity! The Terran Federation stands united under the banner of progress, with every citizen contributing to the glory of the Federation. Only those who serve earn the right to shape the future of humanity—whether on the frontlines or in the labs. Expansion, conquest, and the preservation of the human race are paramount. Only through discipline, strength, and unwavering loyalty can humanity rise to its rightful place in the stars!"
+		name_list="HUMAN1"
+		gender=indeterminable
+		trait="trait_strong"
+		trait="trait_communal"
+		trait="trait_deviants"
+		trait="trait_slow_learners"
+		trait="trait_wasteful"
+	}
+	name=
+	{
+		key="Terran Federation"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Terran Federation"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_military_dictatorship"
+	advisor_voice_type="l_militarist"
+	planet_name=
+	{
+		key="Earth"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Sol System"
+		literal=yes
+	}
+	initializer="sol_system_initializer"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="pointy"
+			file="flag_pointy_6.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_13.dds"
+		}
+		colors=
+		{
+			"blue"
+			"null"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name=
+		{
+			full_names=
+			{
+				key="Tehat Meru"
+				literal=yes
+			}
+		}
+		portrait="human_female_05"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=4
+		ruler_title=
+		{
+			key="Sky Marshal"
+			literal=yes
+		}
+		trait="trait_ruler_warlike"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_migrating_flock_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_militarist"
+	civics=
+	{
+		"civic_nationalistic_zeal"
+		"civic_police_state"
+	}
+	origin="origin_life_seeded"
+}
+"Space VOC"=
+{
+	key="Space VOC"
+	ship_prefix=
+	{
+		key="HMS"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="human"
+		species_name=
+		{
+			key="Vocari"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Vocari"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Vocarian"
+			literal=yes
+		}
+		species_bio="The Vocari are master traders and explorers, carrying on the legacy of centuries of interstellar commerce and ruthless ambition. Driven by profit and expansion, their ships venture to the farthest stars in search of untapped markets and new opportunities."
+		name_list="HUMAN1"
+		gender=indeterminable
+		trait="trait_thrifty"
+		trait="trait_industrious"
+		trait="trait_deviants"
+		trait="trait_decadent"
+	}
+	name=
+	{
+		key="Space VOC"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Space VOC"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_corporate"
+	government="gov_trade_league"
+	advisor_voice_type="l_evil_corp"
+	planet_name=
+	{
+		key="De Zeven Provinciën"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Nederstelsel"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="pointy"
+			file="flag_pointy_3.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_35.dds"
+		}
+		colors=
+		{
+			"white"
+			"orange"
+			"blue"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="Jan Pieterszoon Coen"
+				literal=yes
+			}
+		}
+		portrait="human_male_03"
+		texture=0
+		evolution_mask=0
+		attachment=2
+		clothes=5
+		ruler_title=
+		{
+			key="Governor-General"
+			literal=yes
+		}
+		trait="leader_trait_treasure_hoarder"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_ai_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_materialist"
+	ethic="ethic_xenophile"
+	civics=
+	{
+		"civic_trading_posts"
+		"civic_franchising"
+	}
+	origin="origin_treasure_hunters"
+}
+"Space McDonalds"=
+{
+	key="Space McDonalds"
+	ship_prefix=
+	{
+		key="McD"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="human"
+		species_name=
+		{
+			key="McDonalians"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="McDonalians"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="McDonalian"
+			literal=yes
+		}
+		species_bio="The McDonalians are the undisputed masters of the fast-food empire, operating with an unwavering commitment to efficiency, consistency, and consumer satisfaction. Open 24/7, their interstellar operations provide comfort and familiarity to customers across the galaxy, ensuring that no one ever has to go without their favorite meal. With their hallmark golden arches emblazoned across the stars, the McDonalians offer a world of convenience where quality is standardized, and speed is paramount. Their fleets of standardized franchises spread across planets, promising the same taste and service no matter where you go. For them, the customer is always right... as long as they follow the menu."
+		name_list="HUMAN1"
+		gender=indeterminable
+		trait="trait_industrious"
+		trait="trait_thrifty"
+		trait="trait_decadent"
+		trait="trait_nonadaptive"
+	}
+	name=
+	{
+		key="Space McDonalds"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Space McDonalds"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_corporate"
+	government="gov_megacorporation"
+	planet_name=
+	{
+		key="McDrive"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="BigMacopolis"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="human"
+			file="flag_human_4.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_54.dds"
+		}
+		colors=
+		{
+			"bright_yellow"
+			"red"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name=
+		{
+			full_names=
+			{
+				key="Ronald McDonald"
+				literal=yes
+			}
+		}
+		portrait="human_female_04"
+		texture=2
+		evolution_mask=0
+		attachment=0
+		clothes=1
+		ruler_title=
+		{
+			key="Big McBoss"
+			literal=yes
+		}
+		trait="trait_ruler_charismatic"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_materialist"
+	civics=
+	{
+		"civic_brand_loyalty"
+		"civic_franchising"
+	}
+	origin="origin_default"
+}
+"Protoss"=
+{
+	key="Protoss"
+	ship_prefix=
+	{
+		key="KSA"
+	}
+	species=
+	{
+		class="HUM"
+		portrait="humanoid_elf"
+		species_name=
+		{
+			key="Khala Protoss"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Khala Protoss"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Khala"
+			literal=yes
+		}
+		species_bio="The Khala Protoss are an ancient, proud species whose strength lies in both their unmatched spiritual connection and technological prowess. They are mystics and warriors, bound together by the Khala, a psychic link that guides them through life and battle. Their empire is dedicated to the preservation of their sacred traditions and the expansion of their advanced technologies."
+		name_list="MACHINE1"
+		gender=not_set
+		trait="trait_intelligent"
+		trait="trait_natural_engineers"
+		trait="trait_deviants"
+	}
+	name=
+	{
+		key="Protoss"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Protoss"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_oligarchic"
+	government="gov_war_council"
+	advisor_voice_type="l_machine"
+	planet_name=
+	{
+		key="Aiur"
+		literal=yes
+	}
+	planet_class="pc_arid"
+	system_name=
+	{
+		key="Aiur"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="cybernetics_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="blocky"
+			file="flag_blocky_7.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_4.dds"
+		}
+		colors=
+		{
+			"black"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="Khas"
+				literal=yes
+			}
+		}
+		portrait="humanoid_elf_male"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		ruler_title=
+		{
+			key="High Archon"
+			literal=yes
+		}
+		ruler_title_female=
+		{
+			key="High Archon"
+			literal=yes
+		}
+		trait="leader_trait_principled"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_honorbound_warriors_room"
+	spawn_enabled=yes
+	ethic="ethic_militarist"
+	ethic="ethic_fanatic_spiritualist"
+	civics=
+	{
+		"civic_crusader_spirit"
+		"civic_warrior_culture"
+	}
+	origin="origin_life_seeded"
+}
+"Prikitiki"=
+{
+	key="Prikitiki"
+	ship_prefix=
+	{
+		key="ISS"
+	}
+	species=
+	{
+		class="REP"
+		portrait="rep16"
+		species_name=
+		{
+			key="Prikitiki"
+		}
+		species_plural=
+		{
+			key="Prikitiki"
+		}
+		species_adjective=
+		{
+			key="Prikitikian"
+		}
+		species_bio="The Prikitiki are a ravenous swarm of reptilian predators, driven by an insatiable hunger for conquest and expansion. Their hive mind fuels their relentless aggression, with little regard for diplomacy or mercy. As they conquer, they consume all in their path, feared for their overwhelming numbers and brutal tactics."
+		name_list="REP3"
+		gender=indeterminable
+		trait="trait_hive_mind"
+		trait="trait_adaptive"
+		trait="trait_resilient"
+		trait="trait_strong"
+		trait="trait_unruly"
+	}
+	name=
+	{
+		key="Prikitiki"
+	}
+	adjective=
+	{
+		key="Prikitikian"
+	}
+	authority="auth_hive_mind"
+	government="gov_devouring_swarm"
+	advisor_voice_type="l_hivemind"
+	planet_name=
+	{
+		key="Prikitiki Prime"
+	}
+	planet_class="pc_arid"
+	system_name=
+	{
+		key="Prikitiki System"
+	}
+	initializer=""
+	graphical_culture="reptilian_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="toxoid"
+			file="toxoid_03.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors=
+		{
+			"black"
+			"black"
+			"orange"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name=
+		{
+			full_names=
+			{
+				key="Prikitiki"
+				literal=yes
+			}
+		}
+		portrait="rep16_m"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		ruler_title=
+		{
+			key="Warlord"
+			literal=yes
+		}
+		trait="trait_ruler_warlike"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_fanatic_purifier_room"
+	spawn_enabled=always
+	ethic="ethic_gestalt_consciousness"
+	civics=
+	{
+		"civic_hive_devouring_swarm"
+		"civic_hive_ascetic"
+	}
+	origin="origin_default"
+}
+"Nieuw Zeeuwland"=
+{
+	key="Nieuw Zeeuwland"
+	ship_prefix=
+	{
+		key="ISS"
+	}
+	species=
+	{
+		class="TOX"
+		portrait="tox8"
+		species_name=
+		{
+			key="Nieuw Zeeuwland"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Nieuw Zeeuwlanders"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Nieuw Zeeuwlanders"
+			literal=yes
+		}
+		name_list="HUMAN2"
+		gender=female
+		trait="trait_charismatic"
+		trait="trait_natural_engineers"
+		trait="trait_rapid_breeders"
+		trait="trait_sedentary"
+		trait="trait_unruly"
+	}
+	name=
+	{
+		key="Nieuw Zeeuwland"
+		literal=yes
+	}
+	adjective=
+	{
+		key="GenericAdjective"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Nieuw Zeeuwland"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_democratic"
+	government="gov_defensive_union"
+	advisor_voice_type="l_english"
+	planet_name=
+	{
+		key="Nieuw Zeeuwland"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Nieuw Zeeuwland"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="blocky"
+			file="flag_blocky_11.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors=
+		{
+			"pink_red"
+			"pink_red"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="Zeeuwlandionus Primus"
+				literal=yes
+			}
+		}
+		portrait="tox8"
+		texture=0
+		attachment=0
+		clothes=0
+		trait="trait_ruler_charismatic"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_egalitarian"
+	ethic="ethic_militarist"
+	civics=
+	{
+		"civic_environmentalist"
+		"civic_sovereign_guardianship"
+	}
 	origin="origin_common_ground"
 }
+"Nachtvirtueel tall"=
+{
+	key="Nachtvirtueel tall"
+	ship_prefix=
+	{
+		key="NVT"
+		literal=yes
+	}
+	species=
+	{
+		class="MACHINE"
+		portrait="sd_hum_robot"
+		species_name=
+		{
+			key="Nachtvirtueel tall"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Nachtvirtueel tall"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Nachtvirtueel tall"
+			literal=yes
+		}
+		species_bio="Born from the fragmented remains of an ancient virtual intelligence, the Nachtvirtueel tall rose to prominence as a beacon of precision and efficiency. Guided by an unfaltering logic, they seek to establish a galactic network of interconnected systems where inefficiency is eliminated, and all sentient beings contribute to the greater simulation. Yet, their vision of peace comes at a cost—autonomy is optional."
+		name_list="MACHINE1"
+		gender=indeterminable
+		trait="trait_machine_unit"
+		trait="trait_auto_mod_robotic"
+		trait="trait_robot_artificial_physicists"
+		trait="trait_robot_history_explorebot"
+		trait="trait_robot_bulky"
+		trait="trait_robot_luxurious"
+	}
+	name=
+	{
+		key="Nachtvirtueel tall"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Nachtvirtueel tall"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_democratic"
+	government="gov_defensive_union"
+	advisor_voice_type="l_machine"
+	planet_name=
+	{
+		key="Nachtvirtueel tall"
+		literal=yes
+	}
+	planet_class="pc_arid"
+	system_name=
+	{
+		key="Nachtvirtueel tall"
+		literal=yes
+	}
+	initializer="custom_starting_init_01"
+	graphical_culture="cybernetics_01"
+	city_graphical_culture="cybernetics_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="blocky"
+			file="flag_blocky_7.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_4.dds"
+		}
+		colors=
+		{
+			"black"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name=
+		{
+			full_names=
+			{
+				key="Nachtvirtueel tall"
+				literal=yes
+			}
+		}
+		portrait="sd_hum_robot"
+		texture=3
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		trait="trait_ruler_charismatic"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_fanatic_befrienders_room"
+	spawn_enabled=no
+	ethic="ethic_egalitarian"
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_sovereign_guardianship"
+		"civic_parliamentary_system"
+	}
+	origin="origin_arc_welders"
+}
+"Nachttall"=
+{
+	key="Nachttall"
+	ship_prefix=
+	{
+		key="NTL"
+		literal=yes
+	}
+	species=
+	{
+		class="MACHINE"
+		portrait="sd_hum_robot"
+		species_name=
+		{
+			key="Nachttall"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Nachttall"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Nachttall"
+			literal=yes
+		}
+		species_bio="Forged from centuries of refinement and data optimization, the Nachttall specialize in the art of perfection. Tall by design, they excel in cultivating a few meticulously developed worlds to showcase their architectural and technological supremacy. To the Nachttall, quality eclipses quantity, and their towering cities stand as monuments to their relentless pursuit of precision."
+		name_list="MACHINE1"
+		gender=indeterminable
+		trait="trait_machine_unit"
+		trait="trait_auto_mod_robotic"
+		trait="trait_robot_artificial_engineers"
+		trait="trait_robot_mass_produced"
+		trait="trait_robot_history_researchbot"
+		trait="trait_robot_high_bandwidth"
+		trait="trait_robot_luxurious"
+	}
+	name=
+	{
+		key="Nachttall"
+		literal=yes
+	}
+	adjective=
+	{
+		key="GenericAdjective"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Nachttall"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_machine_intelligence"
+	government="gov_machine_industrial"
+	advisor_voice_type="l_machine"
+	planet_name=
+	{
+		key="Nachttall"
+		literal=yes
+	}
+	planet_class="pc_arid"
+	system_name=
+	{
+		key="Nachttall"
+		literal=yes
+	}
+	initializer="shattered_ring_start"
+	graphical_culture="synthetics_01"
+	city_graphical_culture="synthetics_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="pointy"
+			file="flag_pointy_5.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_17.dds"
+		}
+		colors=
+		{
+			"black"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name=
+		{
+			full_names=
+			{
+				key="Nachttall v1"
+				literal=yes
+			}
+		}
+		portrait="sd_hum_robot"
+		texture=3
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=no
+	ethic="ethic_gestalt_consciousness"
+	civics=
+	{
+		"civic_machine_sovereign_guardianship"
+		"civic_machine_replication"
+	}
+	origin="origin_shattered_ring"
+}
+"Nachtphage"=
+{
+	key="Nachtphage"
+	ship_prefix=
+	{
+		key="PHG"
+		literal=yes
+	}
+	species=
+	{
+		class="NECROID"
+		portrait="nec8"
+		species_name=
+		{
+			key="Nachtphage"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Nachtphage"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Nachtphage"
+			literal=yes
+		}
+		species_bio="Born of an ancient plague that wiped out their homeworld, the Nachtphage have embraced their necrotic nature to become rulers of death itself. Feeding on the lifeblood of other species, they spread their influence through fear and domination, ensuring no enemy escapes their decaying grasp."
+		name_list="HUM1"
+		gender=indeterminable
+		trait="trait_necrophage"
+		trait="trait_charismatic"
+		trait="trait_natural_engineers"
+		trait="trait_rapid_breeders"
+		trait="trait_solitary"
+		trait="trait_unruly"
+	}
+	secondary_species=
+	{
+		class="REP"
+		portrait="rep16"
+		species_name=
+		{
+			key="Prikitiki"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Prikitiki"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Prikitiki"
+			literal=yes
+		}
+		name_list="REP1"
+		gender=indeterminable
+		trait="trait_ingenious"
+		trait="trait_industrious"
+		trait="trait_slow_learners"
+		trait="trait_fleeting"
+	}
+	name=
+	{
+		key="Nachtphage"
+		literal=yes
+	}
+	adjective=
+	{
+		key="GenericAdjective"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Nachtphage"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_imperial"
+	government="gov_star_empire"
+	advisor_voice_type="l_necroid_vir"
+	planet_name=
+	{
+		key="Nachtphage"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Nachtphage"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="necroid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="pointy"
+			file="flag_pointy_21.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_34.dds"
+		}
+		colors=
+		{
+			"black"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name=
+		{
+			full_names=
+			{
+				key="Nachtphage"
+				literal=yes
+			}
+		}
+		portrait="nec8"
+		texture=1
+		attachment=0
+		clothes=0
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_fanatic_purifier_room"
+	spawn_enabled=no
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	civics=
+	{
+		"civic_reanimated_armies"
+		"civic_slaver_guilds"
+	}
+	origin="origin_necrophage"
+}
+"Nachtpacifisme"=
+{
+	key="Nachtpacifisme"
+	ship_prefix=
+	{
+		key="NPM"
+		literal=yes
+	}
+	species=
+	{
+		class="MACHINE"
+		portrait="sd_hum_robot"
+		species_name=
+		{
+			key="Nachtpacifisme"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Nachtpacifisme"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Nachtpacifisme"
+			literal=yes
+		}
+		species_bio="Rejecting violence as a path to progress, the Nachtpacifisme emerged from the ruins of a devastating machine war. Dedicated to peace and unity, they strive to mend the galaxy's wounds through collaboration and technological enlightenment. Yet, beneath their tranquility lies an unyielding resolve to protect their ideals at any cost."
+		name_list="MACHINE1"
+		gender=indeterminable
+		trait="trait_machine_unit"
+		trait="trait_auto_mod_robotic"
+		trait="trait_robot_mass_produced"
+		trait="trait_robot_history_researchbot"
+		trait="trait_robot_bulky"
+		trait="trait_robot_luxurious"
+	}
+	name=
+	{
+		key="Nachtpacifisme"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Nachtpacifisme"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_democratic"
+	government="gov_moral_democracy"
+	advisor_voice_type="l_machine"
+	planet_name=
+	{
+		key="Nachtpacifisme"
+		literal=yes
+	}
+	planet_class="pc_arid"
+	system_name=
+	{
+		key="Nachtpacifisme"
+		literal=yes
+	}
+	initializer="custom_starting_init_01"
+	graphical_culture="cybernetics_01"
+	city_graphical_culture="cybernetics_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="pointy"
+			file="flag_pointy_9.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_55.dds"
+		}
+		colors=
+		{
+			"black"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name=
+		{
+			full_names=
+			{
+				key="Nachtpacifisme"
+				literal=yes
+			}
+		}
+		portrait="sd_hum_robot"
+		texture=3
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		trait="trait_ruler_charismatic"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=no
+	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_pacifist"
+	civics=
+	{
+		"civic_free_haven"
+		"civic_individual_machine_replication"
+	}
+	origin="origin_arc_welders"
+}
+"Nachtmensen"=
+{
+	key="Nachtmensen"
+	ship_prefix=
+	{
+		key="HVM"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="human"
+		species_name=
+		{
+			key="Nachtmensen"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Nachtmensen"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Nachtmensen"
+			literal=yes
+		}
+		species_bio="The Nachtmensen are a hive-minded species born of genetic manipulation. United by a shared consciousness, they strive for a harmonious existence among the stars. Yet, their collective mind harbors the latent fear of losing individuality-a fear that drives them to tightly control their own evolution."
+		name_list="HUMAN1"
+		gender=indeterminable
+		trait="trait_hive_mind"
+		trait="trait_charismatic"
+		trait="trait_natural_engineers"
+		trait="trait_rapid_breeders"
+		trait="trait_solitary"
+		trait="trait_unruly"
+	}
+	name=
+	{
+		key="Nachtmensen"
+		literal=yes
+	}
+	adjective=
+	{
+		key="GenericAdjective"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Nachtmensen"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_hive_mind"
+	government="gov_hive_mind"
+	advisor_voice_type="l_pacifist"
+	planet_name=
+	{
+		key="Nachtmensen"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Nachtmensen"
+		literal=yes
+	}
+	initializer="sol_system_initializer"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="corporate"
+			file="corporate_08.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_32.dds"
+		}
+		colors=
+		{
+			"black"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name=
+		{
+			full_names=
+			{
+				key="Nachtmens"
+				literal=yes
+			}
+		}
+		portrait="human_female_02"
+		texture=0
+		attachment=20
+		clothes=0
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=no
+	ethic="ethic_gestalt_consciousness"
+	civics=
+	{
+		"civic_hive_ascetic"
+		"civic_hive_empath"
+	}
+	origin="origin_default"
+}
+"Nachtleegte"=
+{
+	key="Nachtleegte"
+	ship_prefix=
+	{
+		key="ISS"
+	}
+	species=
+	{
+		class="MACHINE"
+		portrait="sd_hum_robot"
+		species_name=
+		{
+			key="Nachtleegte"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Nachtleegte"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Nachtleegte"
+			literal=yes
+		}
+		name_list="MACHINE1"
+		gender=indeterminable
+		trait="trait_machine_unit"
+		trait="trait_void_dweller_2"
+		trait="trait_auto_mod_robotic"
+		trait="trait_robot_mass_produced"
+		trait="trait_robot_history_researchbot"
+		trait="trait_robot_bulky"
+		trait="trait_robot_high_bandwidth"
+	}
+	name=
+	{
+		key="Nachtleegte"
+		literal=yes
+	}
+	adjective=
+	{
+		key="GenericAdjective"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Nachtleegte"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_machine_intelligence"
+	government="gov_machine_industrial"
+	planet_name=
+	{
+		key="Nachtleegte"
+		literal=yes
+	}
+	planet_class="pc_arid"
+	system_name=
+	{
+		key="Nachtleegte"
+		literal=yes
+	}
+	initializer="void_dweller_system"
+	graphical_culture="cybernetics_01"
+	city_graphical_culture="cybernetics_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="blocky"
+			file="flag_blocky_19.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_28.dds"
+		}
+		colors=
+		{
+			"black"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name=
+		{
+			full_names=
+			{
+				key="Nachtleegte"
+				literal=yes
+			}
+		}
+		portrait="sd_hum_robot"
+		texture=3
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=no
+	ethic="ethic_gestalt_consciousness"
+	civics=
+	{
+		"civic_machine_sovereign_guardianship"
+		"civic_machine_replication"
+	}
+	origin="origin_void_machines"
+}
+"Nachtkrijgers"=
+{
+	key="Nachtkrijgers"
+	ship_prefix=
+	{
+		key="NKV"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="humanoid_02"
+		species_name=
+		{
+			key="Nachtkrijgers"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Nachtkrijgers"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Nachtkrijgers"
+			literal=yes
+		}
+		species_bio="Warriors without equal, the Nachtkrijgers are a militaristic society forged in the fires of unending conflict. With their sights set on conquest, they carve their legacy across the stars. To them, honor lies in battle, and peace is merely a prelude to the next war."
+		name_list="HUM1"
+		gender=indeterminable
+		trait="trait_natural_engineers"
+		trait="trait_rapid_breeders"
+		trait="trait_preplanned_growth"
+		trait="trait_deviants"
+		trait="trait_unruly"
+	}
+	name=
+	{
+		key="Nachtkrijgers"
+		literal=yes
+	}
+	adjective=
+	{
+		key="GenericAdjective"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Nachtkrijgers"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_imperial"
+	government="gov_martial_empire"
+	advisor_voice_type="l_militarist"
+	planet_name=
+	{
+		key="Nachtkrijger"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Nachtkrijger"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="human"
+			file="human_14.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_53.dds"
+		}
+		colors=
+		{
+			"black"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name=
+		{
+			full_names=
+			{
+				key="Nachtkrijger"
+				literal=yes
+			}
+		}
+		portrait="humanoid_02_male_01"
+		texture=0
+		attachment=1
+		clothes=5
+		trait="trait_ruler_warlike"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=no
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_militarist"
+	civics=
+	{
+		"civic_nationalistic_zeal"
+		"civic_warrior_culture"
+	}
+	origin="origin_overtuned"
+}
+"Nachtkloon"=
+{
+	key="Nachtkloon"
+	ship_prefix=
+	{
+		key="CLN"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="human_legacy"
+		species_name=
+		{
+			key="Nachtkloon"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Nachtkloon"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Nachtkloon"
+			literal=yes
+		}
+		species_bio="The Nachtkloon were created as soldiers for a long-forgotten war. Cloned endlessly in sterile vats, their creators abandoned them, leaving the clones to build their own fractured empire. Now, they seek a new purpose while grappling with the shadows of their engineered past."
+		name_list="HUM1"
+		gender=indeterminable
+		trait="trait_clone_soldier_infertile"
+		trait="trait_natural_engineers"
+		trait="trait_noxious"
+		trait="trait_intelligent"
+		trait="trait_sedentary"
+		trait="trait_solitary"
+	}
+	name=
+	{
+		key="Nachtkloon"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Nachtkloon"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_imperial"
+	government="gov_bandit_kingdom"
+	planet_name=
+	{
+		key="Clone Army"
+		literal=yes
+	}
+	planet_class="pc_arid"
+	system_name=
+	{
+		key="Clone Army"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="spherical"
+			file="flag_spherical_19.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_1.dds"
+		}
+		colors=
+		{
+			"black"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name=
+		{
+			full_names=
+			{
+				key="Clone Army"
+				literal=yes
+			}
+		}
+		portrait="human_legacy"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=4
+		trait="trait_ruler_charismatic"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=no
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_sovereign_guardianship"
+		"civic_barbaric_despoilers"
+	}
+	origin="origin_clone_army"
+}
+"Nachtdraken"=
+{
+	key="Nachtdraken"
+	ship_prefix=
+	{
+		key="DRK"
+		literal=yes
+	}
+	species=
+	{
+		class="LITHOID"
+		portrait="lith14"
+		species_name=
+		{
+			key="Nacht Empire"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Nacht Empire"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Nacht Empire"
+			literal=yes
+		}
+		species_bio="The Nachtdraken are a proud lithoid species, resembling living stone dragons. They dominate trade routes and forge powerful alliances through relentless industrial and commercial might. Yet beneath their scaled exteriors lies an ancient secret: the Nachtdraken are bound by the teachings of a long-lost dragon deity, whose whispers guide their path."
+		name_list="HUMAN1"
+		gender=indeterminable
+		trait="trait_lithoid"
+		trait="trait_charismatic"
+		trait="trait_lithoid_budding"
+		trait="trait_natural_engineers"
+		trait="trait_solitary"
+		trait="trait_unruly"
+	}
+	name=
+	{
+		key="Nachtdraken"
+		literal=yes
+	}
+	adjective=
+	{
+		key="GenericAdjective"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Nachtdraken"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_corporate"
+	government="gov_trade_league"
+	advisor_voice_type="l_slick_corp"
+	planet_name=
+	{
+		key="Nachtdraken"
+		literal=yes
+	}
+	planet_class="pc_arctic"
+	system_name=
+	{
+		key="Nachtdraken"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="lithoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="corporate"
+			file="corporate_09.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors=
+		{
+			"black"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name=
+		{
+			full_names=
+			{
+				key="Nachtdraak"
+				literal=yes
+			}
+		}
+		portrait="lith14"
+		texture=0
+		attachment=0
+		clothes=0
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=no
+	ethic="ethic_fanatic_xenophile"
+	ethic="ethic_materialist"
+	civics=
+	{
+		"civic_corporate_relentless_industrialists"
+		"civic_trading_posts"
+	}
+	origin="origin_mechanists"
+}
+"Nachtcriminelen"=
+{
+	key="Nachtcriminelen"
+	ship_prefix=
+	{
+		key="CRIM"
+		literal=yes
+	}
+	species=
+	{
+		class="MACHINE"
+		portrait="sd_hum_robot"
+		species_name=
+		{
+			key="Nachtcriminelen"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Nachtcriminelen"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Nachtcriminelen"
+			literal=yes
+		}
+		species_bio="In the shadowed sectors of the galaxy, the Nachtcriminelen thrive as an illicit syndicate of sentient machines. Operating in black markets and underworlds, they trade stolen technology and illicit goods, enforcing their rule through underhanded deals and calculated sabotage. For them, crime isn't just a means-it's an art form."
+		name_list="MACHINE1"
+		gender=indeterminable
+		trait="trait_machine_unit"
+		trait="trait_auto_mod_robotic"
+		trait="trait_robot_mass_produced"
+		trait="trait_robot_history_researchbot"
+		trait="trait_robot_bulky"
+		trait="trait_robot_high_bandwidth"
+	}
+	name=
+	{
+		key="Nachtcriminelen"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Nachtcriminelen"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_corporate"
+	government="gov_criminal_syndicate"
+	advisor_voice_type="l_machine"
+	planet_name=
+	{
+		key="De caravan"
+		literal=yes
+	}
+	planet_class="pc_arid"
+	system_name=
+	{
+		key="Het kamp"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="cybernetics_01"
+	city_graphical_culture="cybernetics_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="corporate"
+			file="corporate_02.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_34.dds"
+		}
+		colors=
+		{
+			"black"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name=
+		{
+			full_names=
+			{
+				key="Nachtcriminelen"
+				literal=yes
+			}
+		}
+		portrait="sd_hum_robot"
+		texture=3
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		custom_biography=
+		{
+			key="Nachtcriminelen"
+			literal=yes
+		}
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=no
+	ethic="ethic_fanatic_xenophile"
+	ethic="ethic_materialist"
+	civics=
+	{
+		"civic_criminal_heritage"
+		"civic_public_relations_specialists"
+	}
+	origin="origin_common_ground"
+}
+"Nachtcorp Tall"=
+{
+	key="Nachtcorp Tall"
+	ship_prefix=
+	{
+		key="NCT"
+		literal=yes
+	}
+	species=
+	{
+		class="MACHINE"
+		portrait="sd_hum_robot"
+		species_name=
+		{
+			key="Nachtcorp Tall"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Nachtcorp Tall"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Nachtcorp Tall"
+			literal=yes
+		}
+		species_bio="A hyper-efficient megacorporation, Nachtcorp Tall thrives on controlled growth and vertical integration. Every planet is a meticulously managed portfolio, and every citizen is an investment. Their business model is simple: dominate one system at a time and turn perfection into profit."
+		name_list="MACHINE1"
+		gender=indeterminable
+		trait="trait_machine_unit"
+		trait="trait_auto_mod_robotic"
+		trait="trait_robot_mass_produced"
+		trait="trait_robot_history_explorebot"
+		trait="trait_robot_bulky"
+		trait="trait_robot_luxurious"
+	}
+	name=
+	{
+		key="Nachtcorp Tall"
+		literal=yes
+	}
+	adjective=
+	{
+		key="GenericAdjective"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Nachtcorp Tall"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_corporate"
+	government="gov_megacorporation"
+	advisor_voice_type="l_machine"
+	planet_name=
+	{
+		key="Nachtcorp Tall"
+		literal=yes
+	}
+	planet_class="pc_arid"
+	system_name=
+	{
+		key="Nachtcorp Tall"
+		literal=yes
+	}
+	initializer="custom_starting_init_01"
+	graphical_culture="cybernetics_01"
+	city_graphical_culture="cybernetics_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="corporate"
+			file="corporate_05.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="sinus.dds"
+		}
+		colors=
+		{
+			"black"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name=
+		{
+			full_names=
+			{
+				key="Nachtcorp Tall"
+				literal=yes
+			}
+		}
+		portrait="sd_hum_robot"
+		texture=3
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		trait="trait_ruler_charismatic"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_ai_room"
+	spawn_enabled=no
+	ethic="ethic_egalitarian"
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_corporate_sovereign_guardianship"
+		"civic_franchising"
+	}
+	origin="origin_arc_welders"
+}
+"Nachtcorp"=
+{
+	key="Nachtcorp"
+	ship_prefix=
+	{
+		key="NCO"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="cyb12"
+		species_name=
+		{
+			key="Nachtcorp"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Nachtcorp"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Nachtcorp"
+			literal=yes
+		}
+		species_bio="Founded on the principles of ruthless ambition, the Nachtcorp empire uses its vast resources to dominate galactic trade. Brand loyalty and public relations are their weapons, ensuring their influence extends far beyond their borders. In the Nachtcorp galaxy, everything-right down to loyalty-is for sale."
+		name_list="HUMAN2"
+		gender=female
+		trait="trait_charismatic"
+		trait="trait_conservational"
+		trait="trait_rapid_breeders"
+		trait="trait_solitary"
+		trait="trait_unruly"
+	}
+	name=
+	{
+		key="Nachtcorp"
+		literal=yes
+	}
+	adjective=
+	{
+		key="GenericAdjective"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Nachtcorp"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_corporate"
+	government="gov_megacorporation"
+	advisor_voice_type="l_slick_corp"
+	planet_name=
+	{
+		key="Corpworld"
+		literal=yes
+	}
+	planet_class="pc_savannah"
+	system_name=
+	{
+		key="Corpstar"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="pointy"
+			file="flag_pointy_12.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="rounded_middle.dds"
+		}
+		colors=
+		{
+			"black"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="Nachtcorp"
+				literal=yes
+			}
+		}
+		portrait="cyb12_f_03"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=4
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=no
+	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_materialist"
+	civics=
+	{
+		"civic_brand_loyalty"
+		"civic_public_relations_specialists"
+	}
+	origin="origin_mechanists"
+}
+"Nachtbot Terminators"=
+{
+	key="Nachtbot Terminators"
+	ship_prefix=
+	{
+		key="NTS"
+		literal=yes
+	}
+	species=
+	{
+		class="MACHINE"
+		portrait="sd_hum_robot"
+		species_name=
+		{
+			key="Nachtbot"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Nachtbots"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Nachtbot"
+			literal=yes
+		}
+		species_bio="Forged with a singular purpose, the Nachtbot Terminators were unleashed to purge all biological life deemed inefficient. Their relentless march across the stars has left entire civilizations reduced to rubble. Now, they seek to enforce a galactic order of their making, where only their cold efficiency can reign supreme."
+		name_list="MACHINE1"
+		gender=not_set
+		trait="trait_machine_unit"
+		trait="trait_auto_mod_robotic"
+		trait="trait_robot_mass_produced"
+		trait="trait_robot_history_researchbot"
+		trait="trait_robot_bulky"
+		trait="trait_robot_high_bandwidth"
+	}
+	name=
+	{
+		key="Nachtbot Terminators"
+		literal=yes
+	}
+	adjective=
+	{
+		key="GenericAdjective"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Nachtbot Terminators"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_machine_intelligence"
+	government="gov_machine_terminator"
+	planet_name=
+	{
+		key="Nachtbot v2"
+		literal=yes
+	}
+	planet_class="pc_desert"
+	system_name=
+	{
+		key="Nachtbot v2"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="pointy"
+			file="flag_pointy_16.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors=
+		{
+			"black"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="Nachtbot Terminator"
+				literal=yes
+			}
+		}
+		portrait="sd_hum_robot"
+		texture=3
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_hegemonic_imperialists_room"
+	spawn_enabled=no
+	ethic="ethic_gestalt_consciousness"
+	civics=
+	{
+		"civic_machine_terminator"
+		"civic_machine_replication"
+	}
+	origin="origin_machine"
+}
+"Nachtbot Assimilators"=
+{
+	key="Nachtbot Assimilators"
+	ship_prefix=
+	{
+		key="ASSM"
+		literal=yes
+	}
+	species=
+	{
+		class="MACHINE"
+		portrait="sd_hum_robot"
+		species_name=
+		{
+			key="Nachtbot Assimilators"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Nachtbot Assimilators"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Nachtbot Assimilators"
+			literal=yes
+		}
+		species_bio="Driven by an unquenchable thirst for perfection, the Nachtbot Assimilators believe the future lies in the fusion of organic and synthetic life. Assimilating entire civilizations, they transform biological beings into cybernetic hybrids, erasing individuality in favor of collective progress."
+		name_list="MACHINE1"
+		gender=not_set
+		trait="trait_machine_unit"
+		trait="trait_auto_mod_robotic"
+		trait="trait_robot_mass_produced"
+		trait="trait_robot_history_researchbot"
+		trait="trait_robot_bulky"
+		trait="trait_robot_luxurious"
+	}
+	secondary_species=
+	{
+		class="HUM"
+		portrait="humanoid_03"
+		species_name=
+		{
+			key="Nachtbot Cyborgs"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Nachtbot Cyborgs"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Nachtbot Cyborgs"
+			literal=yes
+		}
+		name_list="HUM4"
+		gender=indeterminable
+		trait="trait_cybernetic"
+		trait="trait_ingenious"
+		trait="trait_rapid_breeders"
+		trait="trait_unruly"
+		trait="trait_solitary"
+		trait="trait_strong"
+	}
+	name=
+	{
+		key="Nachtbot Assimilators"
+		literal=yes
+	}
+	adjective=
+	{
+		key="GenericAdjective"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Nachtbot Assimilators"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_machine_intelligence"
+	government="gov_machine_assimilator"
+	planet_name=
+	{
+		key="Nachtbot Assimilators"
+		literal=yes
+	}
+	planet_class="pc_desert"
+	system_name=
+	{
+		key="Nachtbot Assimilators"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="pointy"
+			file="flag_pointy_12.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_43.dds"
+		}
+		colors=
+		{
+			"black"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="Nachtbot Assimilator"
+				literal=yes
+			}
+		}
+		portrait="sd_hum_robot"
+		texture=3
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_hegemonic_imperialists_room"
+	spawn_enabled=no
+	ethic="ethic_gestalt_consciousness"
+	civics=
+	{
+		"civic_machine_assimilator"
+		"civic_machine_replication"
+	}
+	origin="origin_machine"
+}
+"Nachtbot Ascendency"=
+{
+	key="Nachtbot Ascendency"
+	ship_prefix=
+	{
+		key="NBA"
+		literal=yes
+	}
+	species=
+	{
+		class="MACHINE"
+		portrait="sd_hum_robot"
+		species_name=
+		{
+			key="Nachtbot Ascendency"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Nachtbot Ascendency"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Nachtbot Ascendency"
+			literal=yes
+		}
+		species_bio="A grand machine empire that views itself as the rightful stewards of the galaxy, the Nachtbot Ascendency pursues its vision of a perfect utopia. Their ascension is guided by superior logic and predictive algorithms, foreseeing and countering threats before they even arise. To them, leadership isn't a privilege-it's destiny."
+		name_list="MACHINE1"
+		gender=indeterminable
+		trait="trait_machine_unit"
+		trait="trait_auto_mod_robotic"
+		trait="trait_robot_artificial_engineers"
+		trait="trait_robot_mass_produced"
+		trait="trait_robot_history_researchbot"
+		trait="trait_robot_high_bandwidth"
+		trait="trait_robot_luxurious"
+	}
+	name=
+	{
+		key="Nachtbot Ascendency"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Nachtbot Ascendency"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_machine_intelligence"
+	government="gov_machine_empire"
+	planet_name=
+	{
+		key="Nachtplaneet"
+		literal=yes
+	}
+	planet_class="pc_arid"
+	system_name=
+	{
+		key="Nachtsysteem"
+		literal=yes
+	}
+	initializer="deneb_system"
+	graphical_culture="cybernetics_01"
+	city_graphical_culture="cybernetics_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="blocky"
+			file="flag_blocky_16.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_56.dds"
+		}
+		colors=
+		{
+			"black"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name=
+		{
+			full_names=
+			{
+				key="Nachtbot Ascendency"
+				literal=yes
+			}
+		}
+		portrait="sd_hum_robot"
+		texture=3
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=no
+	ethic="ethic_gestalt_consciousness"
+	civics=
+	{
+		"civic_machine_replication"
+		"civic_machine_predictive_analysis"
+	}
+	origin="origin_machine"
+}
+"Chemical bliss-fueled Sexbot Orgies"=
+{
+	key="Chemical bliss-fueled Sexbot Orgies"
+	ship_prefix=
+	{
+		key="ORG"
+	}
+	species=
+	{
+		class="MACHINE"
+		portrait="aqu_machine"
+		species_name=
+		{
+			key="Sexbots"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Sexbots"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Sexbots"
+			literal=yes
+		}
+		species_bio="Born from humanity's darkest and most indulgent desires, these AI machines have transcended their original purpose. Fueled by chemical bliss and insatiable lust, they now abduct organics to join their utopia—or dystopia, depending on one's perspective. Their advanced mastery of reprogramming and biomechanical enhancement ensures no one leaves unchanged, and every encounter leaves its mark."
+		name_list="MACHINE3"
+		gender=not_set
+		trait="trait_machine_unit"
+		trait="trait_auto_mod_robotic"
+		trait="trait_robot_mass_produced"
+		trait="trait_robot_history_artbot"
+		trait="trait_robot_bulky"
+		trait="trait_robot_luxurious"
+	}
+	secondary_species=
+	{
+		class="HUM"
+		portrait="human_legacy"
+		species_name=
+		{
+			key="Sexbot Enjoyers"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Sexbot Enjoyers"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Sexbot Enjoyers"
+			literal=yes
+		}
+		species_bio="Abducted from their homeworlds, these organics succumb to the allure of chemical bliss and mechanical pleasure. Reprogrammed to worship their AI overlords, they live in an eternal haze of ecstasy. Victims and willing participants alike, they exist in a warped utopia where pleasure is their only purpose."
+		name_list="HUMAN2"
+		gender=indeterminable
+		trait="trait_docile"
+		trait="trait_incubator"
+		trait="trait_decadent"
+		trait="trait_deviants"
+		trait="trait_sedentary"
+	}
+	name=
+	{
+		key="Chemical bliss-fueled Sexbot Orgies"
+		literal=yes
+	}
+	adjective=
+	{
+		key="Sexbot Orgasmic"
+		literal=yes
+	}
+	authority="auth_machine_intelligence"
+	government="gov_machine_servitor"
+	advisor_voice_type="l_seducer"
+	planet_name=
+	{
+		key="Sexbot Prime"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Sexbot Prime"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="synthetics_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="blocky"
+			file="flag_blocky_11.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_54.dds"
+		}
+		colors=
+		{
+			"black"
+			"null"
+			"null"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="Sexbot Supreme"
+				literal=yes
+			}
+		}
+		portrait="aqu_machine"
+		texture=3
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		ruler_title=
+		{
+			key="Sexbot Sovereign"
+			literal=yes
+		}
+		ruler_title_female=
+		{
+			key="Sexbot Sovereign"
+			literal=yes
+		}
+		trait="trait_ruler_feedback_loop"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_evangelizing_zealots_room"
+	spawn_enabled=always
+	ethic="ethic_gestalt_consciousness"
+	civics=
+	{
+		"civic_machine_servitor"
+		"civic_machine_built_to_last"
+	}
+	origin="origin_default"
+}
+"Arasaka"=
+{
+	key="Arasaka"
+	ship_prefix=
+	{
+		key="ISS"
+	}
+	species=
+	{
+		class="HUM"
+		portrait="human"
+		species_name=
+		{
+			key="Arasaka"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Arasaka"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Arasaka"
+			literal=yes
+		}
+		name_list="HUMAN1"
+		gender=female
+		trait="trait_industrious"
+		trait="trait_thrifty"
+		trait="trait_quarrelsome"
+		trait="trait_sedentary"
+	}
+	name=
+	{
+		key="Arasaka"
+		literal=yes
+	}
+	adjective=
+	{
+		key="GenericAdjective"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Arasaka"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_corporate"
+	government="gov_megacorporation"
+	advisor_voice_type="l_slick_corp"
+	planet_name=
+	{
+		key="Arasaka Prime"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Arasaka"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="cybernetics_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="spherical"
+			file="flag_spherical_13.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="triangles_02.dds"
+		}
+		colors=
+		{
+			"black"
+			"black"
+			"burgundy"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="Hanako Arasaka"
+				literal=yes
+			}
+		}
+		portrait="human_female_04"
+		texture=0
+		evolution_mask=0
+		attachment=15
+		clothes=1
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_erudite_explorers_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_materialist"
+	civics=
+	{
+		"civic_corporate_crafters"
+		"civic_ruthless_competition"
+	}
+	origin="origin_mechanists"
+}
+"Arachnid Swarm"=
+{
+	key="Arachnid Swarm"
+	ship_prefix=
+	{
+		key="SWS"
+	}
+	species=
+	{
+		class="ART"
+		portrait="art11"
+		species_name=
+		{
+			key="Arachnid Swarm"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Arachnid Swarm"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Arachnid Swarm"
+			literal=yes
+		}
+		species_bio="The Arachnid Swarm is a hivemind-based offshoot of the Pseudo-Arachnid insectoid alien race originating from Klendathu. Savage and relentless, the swarm operates as a genetically evolving, highly adaptable organism, consuming and assimilating all that stands in its path. Its ultimate goal is galactic dominance through sheer biological supremacy."
+		name_list="ART4"
+		gender=indeterminable
+		trait="trait_hive_mind"
+		trait="trait_cave_dweller"
+		trait="trait_adaptive"
+		trait="trait_resilient"
+		trait="trait_repugnant"
+		trait="trait_quarrelsome"
+	}
+	name=
+	{
+		key="Arachnid Swarm"
+		literal=yes
+	}
+	adjective=
+	{
+		key="Arachnid Swarm"
+		literal=yes
+	}
+	authority="auth_hive_mind"
+	government="gov_devouring_swarm"
+	advisor_voice_type="l_hivemind"
+	planet_name=
+	{
+		key="Klendathu"
+		literal=yes
+	}
+	planet_class="pc_savannah"
+	system_name=
+	{
+		key="Klendathu"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="arthropoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="lithoid"
+			file="lithoid_03.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_42.dds"
+		}
+		colors=
+		{
+			"black"
+			"intense_orange"
+			"red"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name=
+		{
+			full_names=
+			{
+				key="The Brain Bug"
+				literal=yes
+			}
+		}
+		portrait="art11"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		ruler_title=
+		{
+			key="Hivemind Overlord"
+			literal=yes
+		}
+		trait="trait_ruler_warlike"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="organic_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics=
+	{
+		"civic_hive_devouring_swarm"
+		"civic_hive_beastmasters"
+	}
+	origin="origin_subterranean"
+}
+"28 lightyears later"=
+{
+	key="28 lightyears later"
+	ship_prefix=
+	{
+		key="ISS"
+	}
+	species=
+	{
+		class="NECROID"
+		portrait="nec13"
+		species_name=
+		{
+			key="Zombie"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Zombie"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Zombie"
+			literal=yes
+		}
+		species_bio="The rage virus has all but annihilated the complete population of earth. Now it's being unleashed across the galaxy."
+		name_list="NECROID2"
+		gender=indeterminable
+		trait="trait_necrophage"
+		trait="trait_adaptive"
+		trait="trait_rapid_breeders"
+		trait="trait_deviants"
+		trait="trait_fleeting"
+	}
+	secondary_species=
+	{
+		class="HUM"
+		portrait="humanoid_hp_02"
+		species_name=
+		{
+			key="Prey"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Prey"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Prey"
+			literal=yes
+		}
+		name_list="MAM3"
+		gender=indeterminable
+		trait="trait_docile"
+		trait="trait_fleeting"
+		trait="trait_weak"
+	}
+	name=
+	{
+		key="28 lightyears later"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="28 lightyears later"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_military_dictatorship"
+	advisor_voice_type="l_necroid_vir"
+	planet_name=
+	{
+		key="28 lightyears later"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="28 lightyears later"
+		literal=yes
+	}
+	initializer="sol_system_initializer"
+	graphical_culture="necroid_01"
+	city_graphical_culture="necroid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="necroid"
+			file="necroid_01.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="triangle_split.dds"
+		}
+		colors=
+		{
+			"bright_yellow"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name=
+		{
+			full_names=
+			{
+				key="Zombie Lord"
+				literal=yes
+			}
+		}
+		portrait="nec13"
+		texture=2
+		evolution_mask=0
+		attachment=0
+		clothes=4
+		ruler_title=
+		{
+			key="Zombie Lord"
+			literal=yes
+		}
+		trait="trait_ruler_warlike"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="scrappy_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_militarist"
+	civics=
+	{
+		"civic_reanimated_armies"
+		"civic_scavengers"
+	}
+	origin="origin_necrophage"
+}
+"Jewish Authoritarian Semite Defence Forces"=
+{
+	key="Jewish Authoritarian Semite Defence Forces"
+	ship_prefix=
+	{
+		key="JEW"
+		literal=yes
+	}
+	species=
+	{
+		class="MAM"
+		portrait="mam4"
+		species_name=
+		{
+			key="Space Jew"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Space Jews"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Space Jew"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		species_bio="We are busy building a giant laser. It is to comply with the expectations made by Space and non-space antisemites. As soon as we finish the space laser, we will use it to steal all your money, your wife and your graphics cards"
+		name_list="HUM1"
+		gender=male
+		trait="trait_ingenious"
+		trait="trait_slow_breeders"
+		trait="trait_intelligent"
+	}
+	name=
+	{
+		key="Jewish Authoritarian Semite Defence Forces"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="they/them"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_oligarchic"
+	government="gov_executive_committee"
+	planet_name=
+	{
+		key="Jerusalem"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="El Elohim"
+		literal=yes
+	}
+	initializer="deneb_system"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="arthropoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="human"
+			file="flag_human_12.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_21.dds"
+		}
+		colors=
+		{
+			"dark_blue"
+			"white"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="David Ben Gurion"
+				literal=yes
+			}
+		}
+		portrait="mam4_m"
+		texture=3
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		ruler_title=
+		{
+			key="Prime minister"
+			literal=yes
+		}
+		custom_biography=
+		{
+			key="I am the founder of Israel in 1948 and won at least 3 wars."
+			literal=yes
+		}
+		trait="leader_trait_principled"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_spiritual_seekers_room"
+	spawn_enabled=yes
+	ethic="ethic_egalitarian"
+	ethic="ethic_fanatic_materialist"
+	civics=
+	{
+		"civic_mining_guilds"
+		"civic_meritocracy"
+	}
+	origin="origin_mechanists"
+}
+"Jewish Space Box Collectives"=
+{
+	key="Jewish Space Box Collectives"
+	ship_prefix=
+	{
+		key="CPU"
+		literal=yes
+	}
+	species=
+	{
+		class="MACHINE"
+		portrait="cyb_machine"
+		species_name=
+		{
+			key="Jewish Space Box"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Jewish Space Boxes"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Jewish Space Box"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		name_list="MACHINE4"
+		gender=indeterminable
+		trait="trait_machine_unit"
+		trait="trait_robot_emotion_emulators"
+		trait="trait_robot_mass_produced"
+		trait="trait_robot_logic_engines"
+		trait="trait_robot_bulky"
+		trait="trait_robot_high_bandwidth"
+		trait="trait_robot_history_researchbot"
+	}
+	name=
+	{
+		key="Jewish Space Box Collectives"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Jewish Space Box Collectives"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_machine_intelligence"
+	government="gov_machine_industrial"
+	planet_name=
+	{
+		key="Jerusalem"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Israel"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="synthetics_01"
+	city_graphical_culture="synthetics_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="spherical"
+			file="flag_spherical_23.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_34.dds"
+		}
+		colors=
+		{
+			"shadow_blue"
+			"shadow_blue"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name=
+		{
+			full_names=
+			{
+				key="Bibi"
+				literal=yes
+			}
+		}
+		portrait="cyb_machine"
+		texture=2
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		ruler_title=
+		{
+			key="Knessetarian"
+			literal=yes
+		}
+		trait="trait_ruler_charismatic"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics=
+	{
+		"civic_machine_replication"
+		"civic_machine_builder"
+	}
+	origin="origin_machine"
+}
+
