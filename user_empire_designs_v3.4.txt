@@ -9964,4 +9964,1214 @@ Look, I've got the most loyal followers. They love me. I made this empire great,
 	}
 	origin="origin_machine"
 }
+"The Great Mahkloompah"=
+{
+	key="The Great Mahkloompah"
+	ship_prefix=
+	{
+		key="ISS"
+	}
+	species=
+	{
+		class="AQUATIC"
+		portrait="aqu11"
+		species_name=
+		{
+			key="Mahkloompah"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Mahkloompahs"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Mahkloompah"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		name_list="AQUATIC1"
+		gender=not_set
+		trait="trait_latent_psionic"
+		trait="trait_intelligent"
+		trait="trait_slow_learners"
+		trait="trait_unruly"
+		trait="trait_natural_engineers"
+		trait="trait_aquatic"
+		trait="trait_organic"
+	}
+	name=
+	{
+		key="The Great Mahkloompah"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="The Great Mahkloompah"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_democratic"
+	government="gov_dimensional_covenant"
+	advisor_voice_type="l_aqu_vir"
+	planet_name=
+	{
+		key="Kloompah"
+		literal=yes
+	}
+	planet_class="pc_ocean"
+	system_name=
+	{
+		key="Mah"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="aquatic_01"
+	city_graphical_culture="aquatic_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="aquatic"
+			file="aquatic_09.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_28.dds"
+		}
+		colors=
+		{
+			"intense_blue"
+			"sky_blue"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="PoolDrip"
+				literal=yes
+			}
+		}
+		portrait="aqu11"
+		texture=2
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		ruler_title=
+		{
+			key="Champion"
+			literal=yes
+		}
+		ruler_title_female=
+		{
+			key="Champion"
+			literal=yes
+		}
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_egalitarian"
+	ethic="ethic_fanatic_spiritualist"
+	civics=
+	{
+		"civic_dimensional_worship"
+		"civic_crafters"
+	}
+	origin="origin_shroudwalker_apprentice"
+}
+"The Great Machine God"=
+{
+	key="The Great Machine God"
+	ship_prefix=
+	{
+		key="ISS"
+	}
+	species=
+	{
+		class="MACHINE"
+		portrait="synth_machine_02"
+		species_name=
+		{
+			key="The Great Machine God"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="The Great Machine God"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="The Great Machine God"
+			literal=yes
+		}
+		name_list="MACHINE3"
+		gender=indeterminable
+		trait="trait_machine_unit"
+		trait="trait_robot_logic_engines"
+		trait="trait_robot_high_bandwidth"
+		trait="trait_robot_propaganda_machines"
+		trait="trait_robot_mass_produced"
+		trait="trait_robot_delicate_frames"
+	}
+	name=
+	{
+		key="The Great Machine God"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="The Great Machine God"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_democratic"
+	government="gov_theocratic_republic"
+	planet_name=
+	{
+		key="01100111 01101111 01100100"
+		literal=yes
+	}
+	planet_class="pc_desert"
+	system_name=
+	{
+		key="ZeroOne"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="nemesis_01"
+	city_graphical_culture="synthetics_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="domination"
+			file="domination_16.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_48.dds"
+		}
+		colors=
+		{
+			"shadow_steel"
+			"toxic_green"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name=
+		{
+			full_names=
+			{
+				key="GOD"
+				literal=yes
+			}
+		}
+		portrait="synth_machine_02"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=4
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=yes
+	ethic="ethic_egalitarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_individual_machine_replication"
+		"civic_hyperspace_specialty"
+	}
+	origin="origin_default"
+}
+"Endless Refactoring"=
+{
+	key="Endless Refactoring"
+	ship_prefix=
+	{
+		key="BB"
+		literal=yes
+	}
+	species=
+	{
+		class="ART"
+		portrait="cyb9"
+		species_name=
+		{
+			key="BugBritian"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="BugBritians"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="BugBritian"
+			literal=yes
+		}
+		species_bio="After endless refactoring the design patterns didnt quite matched the architecture. Thus the Bugbrits where doomed to fix and create a bug at the same time. dwelling in their underground safespace commiting over and over again. Waiting for the great stacktrace to guide them through the server"
+		name_list="ART3"
+		gender=indeterminable
+		trait="trait_cave_dweller"
+		trait="trait_humanoid_jinxed"
+		trait="trait_industrious"
+		trait="trait_slow_learners"
+		trait="trait_ingenious"
+		trait="trait_organic"
+	}
+	name=
+	{
+		key="Endless Refactoring"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="The Endless Refactoring"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_theocratic_dictatorship"
+	advisor_voice_type="l_the_technocrat"
+	planet_name=
+	{
+		key="Debug"
+		literal=yes
+	}
+	planet_class="pc_tundra"
+	system_name=
+	{
+		key="StackTrace"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="cybernetics_01"
+	city_graphical_culture="synthetics_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="zoological"
+			file="flag_zoological_17.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_21.dds"
+		}
+		colors=
+		{
+			"dark_grey"
+			"silver_steel"
+			"orange"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name=
+		{
+			full_names=
+			{
+				key="Witty Commenter"
+				literal=yes
+			}
+		}
+		portrait="cyb9"
+		texture=7
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		ruler_title=
+		{
+			key="Lead"
+			literal=yes
+		}
+		custom_biography=
+		{
+			key="He was the first. He was the one. He left the comment that would change the world for ever."
+			literal=yes
+		}
+		trait="trait_ruler_industrialist"
+		leader_class="scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_militarist"
+	ethic="ethic_fanatic_spiritualist"
+	civics=
+	{
+		"civic_memory_vault"
+		"civic_exalted_priesthood"
+	}
+	origin="origin_subterranean"
+}
+"Terneuzense Terrorzeeuwen"=
+{
+	key="Terneuzense Terrorzeeuwen"
+	ship_prefix=
+	{
+		key="TTS"
+		literal=yes
+	}
+	species=
+	{
+		class="AQUATIC"
+		portrait="synth06"
+		species_name=
+		{
+			key="Terneuzense Terrorzeeuw"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Terneuzense Terrorzeeuwen"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Terneuzense Terrorzeeuw"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		species_bio="The Terneuzense Terrorzeeuwen hail from the briny deep of Nieuwe Diepte, where the tides are harsh, the hymns are long, and the fish are judged by the content of their scales. Raised on salted cod and righteous suspicion, these isolationist, ultra-Christian space fishermen believe the galaxy was made in six solar cycles — and was not meant to be shared with squid-faced xenos or socialist mollusks.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Their sacred texts, carved into driftwood and passed down through generations of grumbling elders, clearly state: \"Thou shalt not suffer an alien to pollute thy exclusive economic zone.\" Diplomacy is heresy. Trade is temptation. And the only proper way to greet another species is with a depth charge and a stern lecture on predestination.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Every Tuesday is fasting, every Thursday is war. And on Sundays? Even the torpedo tubes rest. For that, too, is holy."
+		name_list="AQUATIC1"
+		gender=male
+		trait="trait_aquatic"
+		trait="trait_strong"
+		trait="trait_resilient"
+		trait="trait_repugnant"
+		trait="trait_organic"
+	}
+	name=
+	{
+		key="Terneuzense Terrorzeeuwen"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Terneuzense Terrorzeeuwen"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_oligarchic"
+	government="gov_holy_tribunal"
+	planet_name=
+	{
+		key="Nieuwe diepte"
+		literal=yes
+	}
+	planet_class="pc_ocean"
+	system_name=
+	{
+		key="Schelde-Delta"
+		literal=yes
+	}
+	initializer="ocean_paradise_start"
+	graphical_culture="aquatic_01"
+	city_graphical_culture="aquatic_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="pirate"
+			file="flag_pirate_3.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_18.dds"
+		}
+		colors=
+		{
+			"shadow_blue"
+			"light_pink"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="Michiel de Ruyter van Stuiter"
+				literal=yes
+			}
+		}
+		portrait="synth06_m"
+		texture=2
+		evolution_mask=1
+		attachment=0
+		clothes=1
+		ruler_title=
+		{
+			key="Grootvlootheer"
+			literal=yes
+		}
+		custom_biography=
+		{
+			key="Grootvlootheer, who is both High Admiral and Head Deacon of the Church of the Righteous Net, the Terrorzeeuwen scour the stars in barnacle-clad warships, blaring pipe organ hymns and throwing tridents at the void."
+			literal=yes
+		}
+		trait="trait_ruler_eye_for_talent"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophobe"
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_distinguished_admiralty"
+		"civic_exalted_priesthood"
+	}
+	origin="origin_ocean_paradise"
+}
+"The Great Wall"=
+{
+	key="The Great Wall"
+	ship_prefix=
+	{
+		key="ISS"
+	}
+	species=
+	{
+		class="REP"
+		portrait="pro2"
+		species_name=
+		{
+			key="The Many"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="The Many"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="The Many"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		name_list="MAM4"
+		gender=not_set
+		trait="trait_industrious"
+		trait="trait_ingenious"
+		trait="trait_intelligent"
+		trait="trait_unruly"
+		trait="trait_nascent_stage"
+		trait="trait_organic"
+	}
+	name=
+	{
+		key="The Great Wall"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="The Great Wall"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_imperial"
+	government="gov_theocratic_monarchy"
+	planet_name=
+	{
+		key="Star Base 1"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="The Portal"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="reptilian_01"
+	city_graphical_culture="biogenesis_02"
+	empire_flag=
+	{
+		icon=
+		{
+			category="blocky"
+			file="flag_blocky_15.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors=
+		{
+			"shadow_steel"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="Lorp the Many"
+				literal=yes
+			}
+		}
+		portrait="pro2"
+		texture=2
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		trait="trait_ruler_charismatic"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="cybernetics_room"
+	spawn_enabled=no
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_mining_guilds"
+		"civic_diplomatic_corps"
+	}
+	origin="origin_starlit_citadel"
+}
+"52nd Super Deep State"=
+{
+	key="52nd Super Deep State"
+	ship_prefix=
+	{
+		key="ISS"
+	}
+	species=
+	{
+		class="PLANT"
+		portrait="pla13"
+		species_name=
+		{
+			key="Bidenian Bickerer"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Bidenian Bickerer"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Bidenians"
+			literal=yes
+		}
+		species_bio=" After succesfully leaving Earth as the oldest, least sane president of the United states ever. "
+		name_list="HUM1"
+		gender=indeterminable
+		trait="trait_hive_mind"
+		trait="trait_wilderness"
+		trait="trait_intelligent"
+		trait="trait_strong"
+		trait="trait_solitary"
+		trait="trait_unruly"
+		trait="trait_rapid_breeders"
+		trait="trait_organic"
+	}
+	secondary_species=
+	{
+		class="NECROID"
+		portrait="nec12"
+		species_name=
+		{
+			key="Trumps Familiar"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Trumps Familiairs"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Trumps Familiar"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		species_bio="Trumps familiairs decided to leave earth in order to serve as Bidens dick-food in space."
+		name_list="AQUATIC1"
+		gender=not_set
+		trait="trait_hive_mind"
+		trait="trait_fleeting"
+		trait="trait_unruly"
+		trait="trait_communal"
+		trait="trait_adaptive"
+		trait="trait_organic"
+	}
+	name=
+	{
+		key="52nd Super Deep State"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="52nd-ists"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_hive_mind"
+	government="gov_wilderness"
+	planet_name=
+	{
+		key="Vankoever"
+		literal=yes
+	}
+	planet_class="pc_tropical"
+	system_name=
+	{
+		key="Canadian Quazar"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="biogenesis_01"
+	city_graphical_culture="wilderness_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="plantoid"
+			file="plantoid_06.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors=
+		{
+			"green"
+			"dark_brown"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name=
+		{
+			full_names=
+			{
+				key="Hunter Bidenean"
+				literal=yes
+			}
+		}
+		portrait="pla13"
+		texture=3
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		ruler_title=
+		{
+			key="Supreme equalist"
+			literal=yes
+		}
+		custom_biography=
+		{
+			key="I will fuck one of Trumps familiairs a day. And they have to thank me for it."
+			literal=yes
+		}
+		trait="trait_ruler_logistic_understanding"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="wilderness_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics=
+	{
+		"civic_hive_ascetic"
+		"civic_hive_bodysnatcher"
+	}
+	origin="origin_wilderness"
+}
+"Clean Thought Society"=
+{
+	key="Clean Thought Society"
+	ship_prefix=
+	{
+		key=""
+	}
+	species=
+	{
+		class="AQUATIC"
+		portrait="psionic_07"
+		species_name=
+		{
+			key="MindReadian"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="MindReadions"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="MindReadian"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		name_list="HUM1"
+		gender=not_set
+		trait="trait_latent_psionic"
+		trait="trait_sedentary"
+		trait="trait_humanoid_psychological_infertility"
+		trait="trait_rapid_breeders"
+		trait="trait_ingenious"
+		trait="trait_natural_physicists"
+		trait="trait_organic"
+	}
+	name=
+	{
+		key="Clean Thought Society"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="MindReadian"
+				}
+			}
+ 
+		}
+	}
+	authority="auth_imperial"
+	government="gov_theocratic_monarchy"
+	advisor_voice_type="l_psionic_vir"
+	planet_name=
+	{
+		key="Pure Thought 1"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Think"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="psionic_01"
+	city_graphical_culture="psionic_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="paradox"
+			file="paradox_arctic_logo.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="double_hemispheres.dds"
+		}
+		colors=
+		{
+			"dark_blue"
+			"sky_blue"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="Big Brain"
+				literal=yes
+			}
+		}
+		portrait="psionic_07"
+		texture=3
+		evolution_mask=0
+		attachment=0
+		clothes=2
+		custom_biography=
+		{
+			key="Brain so big everybody loves"
+			literal=yes
+		}
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="necroids_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_chosen"
+		"civic_secret_societies"
+	}
+	origin="origin_shroudwalker_apprentice"
+}
+"The Gigglewing Pyrospire Empire"=
+{
+	key="The Gigglewing Pyrospire Empire"
+	ship_prefix=
+	{
+		key=""
+	}
+	species=
+	{
+		class="INF"
+		portrait="inf6"
+		species_name=
+		{
+			key="The Inferno Gigglewing"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="The Inferno Gigglewings"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="The Inferno Gigglewing"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		species_bio="Burn baby burn"
+		name_list="INF1"
+		gender=not_set
+		trait="trait_infernal"
+		trait="trait_pyroclastic"
+		trait="trait_slow_learners"
+		trait="trait_unruly"
+		trait="trait_intelligent"
+		trait="trait_industrious"
+	}
+	name=
+	{
+		key="The Gigglewing Pyrospire Empire"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="The Gigglewing Pyrospire Empire"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_imperial"
+	government="gov_theocratic_monarchy"
+	advisor_voice_type="l_infernal_vir"
+	planet_name=
+	{
+		key="Volcaris"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Flameheart"
+		literal=yes
+	}
+	initializer="red_giant_start"
+	graphical_culture="infernal_01"
+	city_graphical_culture="infernal_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="infernal"
+			file="infernal_08.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_57.dds"
+		}
+		colors=
+		{
+			"intense_red"
+			"intense_red"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="High Pyro-Sovereign Gigglathrax IX"
+				literal=yes
+			}
+		}
+		portrait="inf6"
+		texture=4
+		evolution_mask=0
+		attachment=0
+		clothes=4
+		ruler_title=
+		{
+			key="Ashen Highflare"
+			literal=yes
+		}
+		heir_title=
+		{
+			key="The Spark-Crowned Heir"
+			literal=yes
+		}
+		ruler_title_female=
+		{
+			key="Ashen Highflare"
+			literal=yes
+		}
+		trait="trait_ruler_charismatic"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="infernal_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_galvanic_symbiosis"
+		"civic_world_forgers"
+	}
+	origin="origin_red_giant"
+}
+
 
