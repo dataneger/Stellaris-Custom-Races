@@ -1,3 +1,138 @@
+"Elon Mollusc"=
+{
+	key="Elon Mollusc"
+	ship_prefix=
+	{
+		key=""
+	}
+	species=
+	{
+		class="MOL"
+		portrait="mol8"
+		species_name=
+		{
+			key="Elon Mollusc"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Elon Mollusc"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Elon Mollusc"
+			literal=yes
+		}
+		species_bio="Making the Galaxy a Worse Place, One Planet at a Time!"
+		name_list="HUM1"
+		gender=male
+		trait="trait_organic"
+		trait="trait_industrious"
+		trait="trait_noxious"
+		trait="trait_rapid_breeders"
+		trait="trait_quarrelsome"
+		trait="trait_repugnant"
+	}
+	name=
+	{
+		key="Elon Mollusc"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Elon Mollusc"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_oligarchic"
+	government="gov_executive_committee"
+	advisor_voice_type="l_xenophobe"
+	planet_name=
+	{
+		key="Elon Mollusc"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Elon Mollusc"
+		literal=yes
+	}
+	initializer="sol_system_initializer"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="pointy"
+			file="flag_pointy_8.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors=
+		{
+			"silver_steel"
+			"silver_steel"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="Elon Mollusc"
+				literal=yes
+			}
+		}
+		portrait="mol8"
+		texture=1
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		custom_biography=
+		{
+			key="Elon Mollusc"
+			literal=yes
+		}
+		trait="trait_ruler_industrialist"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_ai_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_materialist"
+	civics=
+	{
+		"civic_crusader_spirit"
+		"civic_relentless_industrialists"
+	}
+	origin="origin_galactic_doorstep"
+}
+
+
 "Mecha Tyra Zeeuw"=
 {
 	key="Mecha Tyra Zeeuw"
@@ -11173,5 +11308,6 @@ Every Tuesday is fasting, every Thursday is war. And on Sundays? Even the torped
 	}
 	origin="origin_red_giant"
 }
+
 
 
